@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-main {
+/* main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
@@ -318,7 +318,7 @@ a {
   border-radius: 8px;
   border: 3px green;
   /* background-color: red; */
-}
+/* }
 
 h3 {
   color: tomato;
@@ -351,10 +351,10 @@ a.star:hover{
 }
 
 .jumbotron.nameTron {
-  background:  (img src="/images/tree.JPG");
+  background:  (img src="/images/tree.JPG"); */
   /* opacity: 50%; */
-  width: 100%;
-}
+  /* width: 100%; */
+/* }
 
 .img.headshot {
   align-self: flex-end;
@@ -376,7 +376,4 @@ a.name:hover {
   color: white;
   text-decoration: none;
 }
-
-.jumbo {
-  position: sticky;
-}
+ */
