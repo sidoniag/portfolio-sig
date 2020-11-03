@@ -39,7 +39,7 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <Header></Header>
-      <main>{renderPage()}</main>
+      {/* <main>{renderPage()}</main> */}
       <Footer></Footer>
     </div>
   );
