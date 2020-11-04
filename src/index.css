@@ -124,7 +124,7 @@ a:hover {
 }
 */
 
-nav {
+.flex-row {
   background: var(--dark);
 }
 
@@ -352,8 +352,8 @@ h3 {
   color: tomato;
   text-decoration: italic;
 }
-
-a.link {
+*/
+.link {
   color: grey;
   text-decoration: none;
 }
@@ -362,7 +362,7 @@ a.link:hover {
   text-decoration: none;
   color: tomato;
 }
-
+/* 
 .dark {
   background-color: grey;
 }
@@ -379,7 +379,7 @@ a.star:hover{
 }
 
 .jumbotron.nameTron {
-  background:  (img src="/images/tree.JPG");
+  background:  (img src="/images/tree.JPG"); */
   /* opacity: 50%; */
   /* width: 100%;
 }

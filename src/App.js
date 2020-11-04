@@ -6,13 +6,14 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
     { name: "about me", href: "about" },
     { name: "portfolio", href: "a few of my projects" },
     // { name: "contact", description: "ways to reach out to me" },
-    // { name: "resume", href: "resume" },
+    { name: "resume", href: "resume" },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -23,8 +24,8 @@ function App() {
         return <Portfolio />;
       // case "contact":
       //   return <Contact />;
-      // case "resume":
-      //   return <Resume />;
+      case "resume":
+        return <Resume />;
       default:
         return <About />;
     }
