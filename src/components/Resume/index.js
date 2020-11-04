@@ -17,8 +17,8 @@ function Resume() {
           <br />
         </Box>
 
-        <h1>SARAH IDONIA GARRETT</h1>
-        <h2>CV2020</h2>
+        <h2>SARAH IDONIA GARRETT</h2>
+        <h4>CV2020</h4>
         <nav>
           <a className="link" href="#education">
             Education |
