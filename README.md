@@ -2,20 +2,20 @@
 
 Welcome to my portfolio built with Create-React-App
 
-## Description
-
-
-
 ### Technologies
+* React, JSX
+* CSS
+* Reactstrap, React-bootstrap, @chakra-ui
+* GitHub Pages
+* Heroku
 
+### GitHub
 
-
-### Preview
-(img src="./portfolio_home.png")
+[GitHub](https://github.com/sidoniag/portfolio-sig)
 
 ### Deployment
 
 [Deployed](https://git.heroku.com/profile-sig.git)
 
-[GitHub](https://github.com/sidoniag/portfolio-sig)
-
+### Preview
+<img src="./portfolio_home.png">
