@@ -65,8 +65,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--primary);
-  color: var(--light);
+  background: #f2f2f2;
+  color: var(--dark);
 }
 
 h1,
@@ -87,10 +87,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  
 }
 
 h3 {
   font-size: 1.75rem;
+  color: var(--light);
 }
 
 h4 {
