@@ -362,6 +362,15 @@ a.link:hover {
   text-decoration: none;
   color: tomato;
 }
+.plain {
+  color: grey;
+  text-decoration: none;
+}
+
+a.plain:hover {
+  text-decoration: none;
+  color: tomato;
+}
 /* 
 .dark {
   background-color: grey;

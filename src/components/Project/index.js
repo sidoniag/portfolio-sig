@@ -25,8 +25,8 @@ import { Box, Link, Image } from "@chakra-ui/core";
               {name}
             </Box>
             <Box>{description}</Box>
-            <Link href={link}>Deployed</Link>
-            <Link href={repo}>GitHub</Link>
+            <Link className="plain" href={link}>Deployed</Link>
+            <Link className="plain" href={repo}>GitHub</Link>
           </Box>
         </Box>
       </div>

@@ -8,7 +8,7 @@ import { Box } from "@chakra-ui/core";
     const [projects] = useState ([
       { 
         name: "SootheR",
-        image: "../../assets/soother.png",
+        image: "../../images/soother.png",
         description: "FIRST PROJECT",
         link: "https://devmadia.github.io/soother/",
         repo: "https://github.com/Devmadia/sootheR"
