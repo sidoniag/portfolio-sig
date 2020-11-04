@@ -131,8 +131,8 @@ nav {
 nav a {
   color: var(--light);
 }
-
-/* header {
+/* 
+header {
   background: var(--dark);
 } */
 
@@ -200,7 +200,7 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
-}
+} */
 
 .container {
   width: 85%;
@@ -209,7 +209,7 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
+/* .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -342,7 +342,7 @@ a {
 .card.resume {
   width: 100%;
   border-radius: 8px;
-  border: 3px green; */
+  border: 3px green; */ 
   /* background-color: red; */
 /* }
 
@@ -384,13 +384,13 @@ a.star:hover{
 
 .img.headshot {
   align-self: flex-end;
-}
+} */
 
-.center {
+center {
   align-self: center;
 }
 
-.main {
+/* .main {
   background: img src="/images/tree.JPG";
 }
 
