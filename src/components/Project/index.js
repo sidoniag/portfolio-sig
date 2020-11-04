@@ -1,30 +1,36 @@
 import React from 'react';
-import {
-    Card, CardText, CardBody, CardLink,
-    CardTitle
-  } from 'reactstrap';
+// import {
+//     Card, CardText, CardBody, CardLink,
+//     CardTitle
+//   } from 'reactstrap';
+import { Box, Link, Image } from "@chakra-ui/core";
   
   function Project({ project }) {
 
     const { name, image, link, repo, description } = project;
 
     return (
-        <div>
-
-          <Card>
-            <CardBody>
-            <CardTitle>{name}</CardTitle>
-            <img width="100%" src={require(`../../assets/${image}`)}
-             alt="project" 
-             />
-            <CardText>{description}</CardText>
-            <CardLink href={link}>Deployed</CardLink>
-            <CardLink href={repo}>GitHub</CardLink>
-          </CardBody>
-        </Card>
- 
-    </div>
- ) 
+      <div>
+        <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
+        <Box p="6">
+          <Image src={image} alt={name} />
+          
+            <Box
+              mt="1"
+              fontWeight="semibold"
+              as="h4"
+              lineHeight="tight"
+              isTruncated
+            >
+              {name}
+            </Box>
+            <Box>{description}</Box>
+            <Link href={link}>Deployed</Link>
+            <Link href={repo}>GitHub</Link>
+          </Box>
+        </Box>
+      </div>
+    ); 
  }
 
 
