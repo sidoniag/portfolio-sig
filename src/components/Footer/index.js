@@ -5,7 +5,7 @@ import { Container, Col } from 'reactstrap';
 function Footer() {
     return (
         <div>
-            <Container className="center">
+            <Container className="footer">
             <a className="plain" href="https://github.com/sidoniag">github</a> |
             <a className="plain" href="seekersig@gmail.com">email</a>
             {/* <Col xs={{ size: 12, offset: 3 }} sm={{ size: 12, offset: 3}} md={{ size: 6, offset: 3 }} lg={{ size: 6, offset: 3}}>

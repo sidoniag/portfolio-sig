@@ -39,7 +39,7 @@ function Resume() {
           className="headshot"
           height="320px"
           width="220px"
-          src={require(`../../assets/images/headshot.jpg`)}
+          src={require(`../../assets/headshot.jpg`)}
           alt="headshot"
         ></img>
         <h3>Education</h3>
