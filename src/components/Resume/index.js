@@ -19,17 +19,17 @@ function Resume() {
 
         <h2>SARAH IDONIA GARRETT</h2>
         <h4>CV2020</h4>
-        <nav>
-          <a className="link" href="#education">
+        <nav className="footer">
+          <a className="plain" href="#education">
             Education |
           </a>
-          <a className="link" href="#experience">
+          <a className="plain" href="#experience">
             Experience |
           </a>
-          <a className="link" href="#statement">
+          <a className="plain" href="#statement">
             Statement |
           </a>
-          <a className="link" href="#volunteer">
+          <a className="plain" href="#volunteer">
             Volunteerism
           </a>
         </nav>
