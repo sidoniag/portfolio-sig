@@ -128,9 +128,20 @@ nav {
   background: var(--dark);
 }
 
-nav a {
+nav ul {
   color: var(--light);
+  text-decoration: none;
 }
+
+nav li {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
 /* 
 header {
   background: var(--dark);
@@ -183,17 +194,8 @@ input:focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
-li {
-  list-style: none;
-}
 
-nav a:hover {
-  text-decoration: none;
-}
 
-nav li {
-  cursor: pointer;
-}
 
 textarea {
   width: 600px;
@@ -203,7 +205,7 @@ textarea {
 } */
 
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardText, CardBody, CardLink,
-    CardTitle, Row, Col
+    CardTitle
   } from 'reactstrap';
   
   function Project({ project }) {
