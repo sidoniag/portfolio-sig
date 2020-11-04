@@ -65,7 +65,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: var(--primary);
   color: var(--light);
 }
 
@@ -120,16 +120,21 @@ h6 {
 a:hover {
   text-decoration: underline;
 }
+*/
 
-header {
+nav {
   background: var(--dark);
 }
 
-header a {
+nav a {
   color: var(--light);
 }
 
-button {
+/* header {
+  background: var(--dark);
+} */
+
+/* button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
@@ -335,7 +340,7 @@ a {
 .card.resume {
   width: 100%;
   border-radius: 8px;
-  border: 3px green;
+  border: 3px green; */
   /* background-color: red; */
 /* }
 
