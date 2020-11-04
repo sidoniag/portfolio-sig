@@ -2,7 +2,6 @@
   "name": "portfolio-sig",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sidoniag.github.com/portfolio-sig",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.1.1",

@@ -1,6 +1,6 @@
 import React from 'react';
 // import Nav from '../Nav';
-import { Image } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 import { Box } from "@chakra-ui/core";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
             <header>
      
                 <Box className="jumbo">
-                <Image src={require('../../assets/tree.jpg')} width="80%" alt="oaktree" />
+                {/* <Image src={require('../../assets/tree.jpg')} width="80%" alt="oaktree" /> */}
                 </Box>
             </header>
         </section>
