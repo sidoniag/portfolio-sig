@@ -8,21 +8,21 @@ import { Box } from "@chakra-ui/core";
     const [projects] = useState ([
       { 
         name: "SootheR",
-        image: "soother.png",
+        image: "./assets/soother.png",
         description: "FIRST PROJECT",
         link: "https://devmadia.github.io/soother/",
         repo: "https://github.com/Devmadia/sootheR"
       },
       { 
         name: "CardSocial",
-        image: "cardsocial.png",
+        image: "../cardsocial.png",
         description: "FULL STACK",
         link: "https://cryptic-shelf-96558.herokuapp.com/",
         repo: "https://github.com/evkonradi/cardsocial"
       },
       { 
         name: "TeachMeTo",
-        image: "teachmeto.png",
+        image: "../assets/teachmeto.png",
         description: "REACT APP",
         link: "https://floating-spire-39046.herokuapp.com/",
         repo: "https://github.com/evkonradi/teach-me-to"

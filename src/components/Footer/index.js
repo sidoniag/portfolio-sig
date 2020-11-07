@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Col } from 'reactstrap';
-// import { Button, Col, Row } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 function Footer() {
     return (

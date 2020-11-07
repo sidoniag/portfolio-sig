@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import { Card, Accordion } from "react-bootstrap";
 import { Box } from "@chakra-ui/core";
 
 function Resume() {
