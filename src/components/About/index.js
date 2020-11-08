@@ -8,6 +8,7 @@ function About() {
     <section>
       <Box bg="tomato" w="100%" p={3} color="white"></Box>
       <br />
+      <h2>always grow.</h2>
       <Image
         className="tree"
         size="300px"
@@ -16,10 +17,11 @@ function About() {
         alt="tree"
       ></Image>
       <Container className="main">
-        <h2>
+          
+        <h4>
           Hello, nice to meet you.
           <br /> My name is Sarah Idonia Garrett.
-        </h2>
+        </h4>
         <br />
 
         <p>I am an artist, over-thinker, and always in development.</p>

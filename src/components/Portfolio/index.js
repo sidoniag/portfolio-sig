@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Project from "../Project";
 import { Box } from "@chakra-ui/core";
-import { Col } from "reactstrap";
 
 function Portfolio() {
   const [projects] = useState([

@@ -1,9 +1,5 @@
 import React from "react";
-// import {
-//     Card, CardText, CardBody, CardLink,
-//     CardTitle
-//   } from 'reactstrap';
-import { Box, Link, Image } from "@chakra-ui/core";
+import { Box, Link } from "@chakra-ui/core";
 
 function Project({ project }) {
   const { name, imgUrl, link, repo, description } = project;
