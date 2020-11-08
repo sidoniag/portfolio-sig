@@ -23,15 +23,6 @@ function Portfolio() {
       repo: "https://github.com/evkonradi/cardsocial",
     },
     {
-      name: "SootheR",
-      imgUrl:
-        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
-      description:
-        "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
-      link: "https://devmadia.github.io/soother/",
-      repo: "https://github.com/Devmadia/sootheR",
-    },
-    {
       name: "TrackMyBudget",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TrackMyBudget.png",
@@ -39,6 +30,15 @@ function Portfolio() {
         "Track My Budget is an application built with React that helps the user track their budget simply.",
       link: "https://limitless-sierra-65574.herokuapp.com/",
       repo: "https://github.com/sidoniag/trackmybudget",
+    },
+    {
+      name: "SootheR",
+      imgUrl:
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
+      description:
+        "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
+      link: "https://devmadia.github.io/soother/",
+      repo: "https://github.com/Devmadia/sootheR",
     },
   ]);
 
