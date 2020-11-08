@@ -1,5 +1,9 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+<<<<<<< HEAD
+=======
+// import { Button, Col, Row } from 'reactstrap';
+>>>>>>> 1354b121891a0d780fdd714586190621159dcf09
 
 function Footer() {
     return (

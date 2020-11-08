@@ -4,6 +4,7 @@ import React from 'react';
 //     CardTitle
 //   } from 'reactstrap';
 import { Box, Link, Image } from "@chakra-ui/core";
+
   
   function Project({ project }) {
 
@@ -13,8 +14,14 @@ import { Box, Link, Image } from "@chakra-ui/core";
       <div>
         <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
         <Box p="6">
+<<<<<<< HEAD
           <Image src={require(`${image}`)} alt={name} />
           
+=======
+          <Image src={require(`../../assets/projects/${image}`)} 
+          alt={name} 
+          />
+>>>>>>> 1354b121891a0d780fdd714586190621159dcf09
             <Box
               mt="1"
               fontWeight="semibold"
