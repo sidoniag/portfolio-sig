@@ -15,7 +15,7 @@ Welcome to my portfolio built with Create-React-App
 
 ### Deployment
 
-[Deployed](https://git.heroku.com/profile-sig.git)
+[Deployed](https://profile-sig.herokuapp.com/)
 
 ### Preview
 <img src="./portfolio_home.png">
