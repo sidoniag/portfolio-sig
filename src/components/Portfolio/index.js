@@ -7,7 +7,7 @@ function Portfolio() {
     {
       name: "TeachMeTo",
       imgUrl:
-        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.png",
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.jpg",
       description:
         "TeachMeTo is an application built with React. It is a place where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
       link: "https://floating-spire-39046.herokuapp.com/",
@@ -16,7 +16,7 @@ function Portfolio() {
     {
       name: "CardSocial",
       imgUrl:
-        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/CardSocial.png",
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/CardSocial.jpg",
       description:
         "Card Social is an application for users that may have multiple hussles and want to connect. Create a unique card to share with others via QRcode.",
       link: "https://cryptic-shelf-96558.herokuapp.com/",
@@ -25,7 +25,7 @@ function Portfolio() {
     {
       name: "SootheR",
       imgUrl:
-        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/Soother.png",
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
       description:
         "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
       link: "https://devmadia.github.io/soother/",
