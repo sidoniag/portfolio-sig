@@ -112,13 +112,6 @@ function Resume() {
             requests.
           </p>
           <p>
-            Self Employed | Event Coordinator & Hostess | 12.2004 - 03.2010 |
-            San Antonio, TX Coordinated all details required to ensure events
-            ran smoothly and successfully. Fulfill any and all food and beverage
-            requests. Anticipate and attend to the specific needs of every
-            guest.
-          </p>
-          <p>
             Cartewheels Catering | Chef & Server | 10.2004 - 05.2005 |
             Kerrville, TX Assisted in organizing and setting up décor to create
             relaxing and enjoyable environment. Communicated essential
@@ -131,18 +124,16 @@ function Resume() {
             Leased, Designed and remodeled 1950’s era home to run as bakery and
             café offering catered private parties and daily menus. Worked in
             kitchen and front of house while managing employees and business
-            operation. Scope/Skills
+            operation.
           </p>
         </Row>
       </Col>
       <Col>
         <h3>Statement</h3>
         <ul>
-          Approaching two decades of experience on this planet in various work
-          positions and life situations. Always learning and challenging myself
-          to change, adapt and improve personally and professionally. I am a
-          stong communicator and enjoy inspiring collaboration to create
-          memorable applications and experiences as part of a team.
+          Approaching two decades of experience in communication and adaptability. Always learning and challenging myself
+          to change and improve, personally and professionally. I aspire to create
+          memorable applications and experiences preferably as part of a team.
         </ul>
       </Col>
       <Col xs={12}>
