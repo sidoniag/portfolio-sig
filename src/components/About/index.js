@@ -8,6 +8,7 @@ function About() {
     <section>
       <Box bg="tomato" w="100%" p={3} color="white"></Box>
       <br />
+   
       <h2>always grow.</h2>
       <Image
         className="tree"

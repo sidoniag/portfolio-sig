@@ -14,6 +14,7 @@ function Resume() {
           bg="tomato"
         >
           <br />
+ 
         </Box>
         <br />
         <h2>SARAH IDONIA GARRETT</h2>

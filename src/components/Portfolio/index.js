@@ -40,6 +40,15 @@ function Portfolio() {
       link: "https://devmadia.github.io/soother/",
       repo: "https://github.com/Devmadia/sootheR",
     },
+    {
+      name: "NoteTaker",
+      imgUrl:
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/NoteTaker.png",
+      description:
+        "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
+      link: "https://devmadia.github.io/note/",
+      repo: "https://github.com/sidoniag/note-taker",
+    },
   ]);
 
   return (
@@ -51,7 +60,8 @@ function Portfolio() {
         overflow="hidden"
         bg="tomato"
       >
-        <br />
+          <br />
+        
       </Box>
       <br />
       <h1 data-testid="h1tag">Portfolio</h1>
@@ -63,6 +73,7 @@ function Portfolio() {
         <Project project={project} key={"project" + idx} />
       ))}
     </div>
+    
   );
 }
 
