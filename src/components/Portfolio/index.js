@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Project from '../Project';
 import { Box } from "@chakra-ui/core";
+import { Col } from 'reactstrap';
 
   
   function Portfolio() {
@@ -35,6 +36,7 @@ import { Box } from "@chakra-ui/core";
       <br />
       </Box>
             <h1 data-testid="h1tag">Portfolio</h1>
+            <p class="center">Below are a few projects from the last six months. My primary role was front-end design including asset creation and communication refinement.</p>
           {projects.map((project, idx) => (
             <Project
             project={project}

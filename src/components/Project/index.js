@@ -11,10 +11,9 @@ import { Box, Link, Image } from "@chakra-ui/core";
 
     return (
       <div>
-        <Box maxW="md" borderWidth="1px" rounded="lg" overflow="hidden">
+        <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
         <Box>
-        <Box
-        alignContent="right"
+        <Box p={4}
               mt="1"
               fontWeight="semibold"
               as="h4"

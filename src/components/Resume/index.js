@@ -18,6 +18,14 @@ function Resume() {
 
         <h2>SARAH IDONIA GARRETT</h2>
         <h4>CV2020</h4>
+        <img
+          className="headshot"
+          align-self="right"
+          height="320px"
+          width="220px"
+          src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
+          alt="headshot"
+        ></img>
         <nav className="footer">
           <a className="plain" href="#education">
             Education |
