@@ -11,6 +11,14 @@ function About() {
             </Box>
             <Container className="main">
             <h2>Hello, nice to meet you.<br /> My name is Sarah Idonia Garrett.</h2>
+            <br />
+            <img
+          className="headshot"
+          height="320px"
+          width="220px"
+          src={require(`../../assets/headshot.jpg`)}
+          alt="headshot"
+        ></img>
 
       <br />
       <p>I am an artist, over-thinker, and always in development.</p>     

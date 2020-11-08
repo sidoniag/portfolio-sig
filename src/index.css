@@ -391,7 +391,7 @@ a.star:hover{
   align-self: flex-end;
 } */
 
-center {
+.center {
   align-self: center;
   display: flex;
 }

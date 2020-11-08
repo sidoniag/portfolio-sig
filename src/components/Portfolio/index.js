@@ -8,22 +8,22 @@ import { Box } from "@chakra-ui/core";
     const [projects] = useState ([
       { 
         name: "SootheR",
-        image: "./assets/soother.png",
-        description: "FIRST PROJECT",
+        imgUrl: "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/soother.png",
+        description: "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
         link: "https://devmadia.github.io/soother/",
         repo: "https://github.com/Devmadia/sootheR"
       },
       { 
         name: "CardSocial",
-        image: "../cardsocial.png",
-        description: "FULL STACK",
+        imgUrl: "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/cardsocial.png",
+        description: "Card Social is an application for users that may have multiple hussles and want to connect. Create a unique card to share with others via QRcode.",
         link: "https://cryptic-shelf-96558.herokuapp.com/",
         repo: "https://github.com/evkonradi/cardsocial"
       },
       { 
         name: "TeachMeTo",
-        image: "../assets/teachmeto.png",
-        description: "REACT APP",
+        imgUrl: "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/teachmeto.png",
+        description: "TeachMeTo is an application built with React. It is a place where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
         link: "https://floating-spire-39046.herokuapp.com/",
         repo: "https://github.com/evkonradi/teach-me-to"
       }

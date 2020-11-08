@@ -41,8 +41,10 @@ function ContactForm() {
         <section>
             <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden" bg="tomato">
       <br />
-      </Box>
+      </Box >
+      <Box className="center">
             <h1 data-testid="h1tag">Get In Touch</h1>
+
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name</label>
@@ -64,6 +66,7 @@ function ContactForm() {
                 <br />
                 <button data-testid="button" type="submit" bg="tomato">Submit</button>
             </form>
+            </Box>
         </section>
     );   
 }

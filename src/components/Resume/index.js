@@ -34,13 +34,6 @@ function Resume() {
         </nav>
       </Col>
       <Col xs={12} md={10}>
-        <img
-          className="headshot"
-          height="320px"
-          width="220px"
-          src={require(`../../assets/headshot.jpg`)}
-          alt="headshot"
-        ></img>
         <h3>Education</h3>
         <ul>
           <p>University of Texas | Full Stack Development | Fall 2020</p>
@@ -130,9 +123,9 @@ function Resume() {
       <Col>
         <h3>Statement</h3>
         <ul>
-          Approaching two decades of experience in communication and adaptability. Always learning and challenging myself
-          to change and improve, personally and professionally. I aspire to create
-          memorable applications and experiences preferably as part of a team.
+          Approaching two decades of experience in communication, adaptation, and a developed keen style. 
+          Always learning and challenging myself to change and improve, personally and professionally. 
+          I aspire to create memorable applications and experiences preferably as part of a team.
         </ul>
       </Col>
       <Col xs={12}>

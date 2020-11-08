@@ -5,24 +5,16 @@ import React from 'react';
 //   } from 'reactstrap';
 import { Box, Link, Image } from "@chakra-ui/core";
 
-  
   function Project({ project }) {
 
-    const { name, image, link, repo, description } = project;
+    const { name, imgUrl, link, repo, description } = project;
 
     return (
       <div>
-        <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
-        <Box p="6">
-<<<<<<< HEAD
-          <Image src={require(`${image}`)} alt={name} />
-          
-=======
-          <Image src={require(`../../assets/projects/${image}`)} 
-          alt={name} 
-          />
->>>>>>> 1354b121891a0d780fdd714586190621159dcf09
-            <Box
+        <Box maxW="md" borderWidth="1px" rounded="lg" overflow="hidden">
+        <Box>
+        <Box
+        alignContent="right"
               mt="1"
               fontWeight="semibold"
               as="h4"
@@ -31,6 +23,10 @@ import { Box, Link, Image } from "@chakra-ui/core";
             >
               {name}
             </Box>
+        <img src={imgUrl}
+          alt={name} 
+          />
+          
             <Box>{description}</Box>
             <Link className="plain" href={link}>Deployed</Link>
             <Link className="plain" href={repo}>GitHub</Link>
