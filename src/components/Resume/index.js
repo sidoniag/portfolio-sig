@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import { Box } from "@chakra-ui/core";
+import { Box, Image, Flex } from "@chakra-ui/core";
 
 function Resume() {
   return (
@@ -18,14 +18,17 @@ function Resume() {
 
         <h2>SARAH IDONIA GARRETT</h2>
         <h4>CV2020</h4>
-        <img
+        <Flex align="center"
+        justify="center">
+        <Image
           className="headshot"
           align-self="right"
-          height="320px"
-          width="220px"
+         size="180px"
+         objectFit="cover"
           src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
           alt="headshot"
-        ></img>
+        ></Image>
+        </Flex>
         <nav className="footer">
           <a className="plain" href="#education">
             Education |
