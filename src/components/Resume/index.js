@@ -15,19 +15,18 @@ function Resume() {
         >
           <br />
         </Box>
-
+        <br />
         <h2>SARAH IDONIA GARRETT</h2>
         <h4>CV2020</h4>
-        <Flex align="center"
-        justify="center">
-        <Image
-          className="headshot"
-          align-self="right"
-         size="180px"
-         objectFit="cover"
-          src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
-          alt="headshot"
-        ></Image>
+        <Flex align="center" justify="center">
+          <Image
+            className="headshot"
+            align-self="right"
+            size="180px"
+            objectFit="cover"
+            src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
+            alt="headshot"
+          ></Image>
         </Flex>
         <nav className="footer">
           <a className="plain" href="#education">
@@ -134,24 +133,19 @@ function Resume() {
       <Col>
         <h3>Statement</h3>
         <ul>
-          Approaching two decades of experience in communication, adaptation, and a developed keen style. 
-          Always learning and challenging myself to change and improve, personally and professionally. 
-          I aspire to create memorable applications and experiences preferably as part of a team.
+          Approaching two decades of experience in communication, adaptation,
+          and a developed keen style. Always learning and challenging myself to
+          change and improve, personally and professionally. I aspire to create
+          memorable applications and experiences preferably as part of a team.
         </ul>
       </Col>
       <Col xs={12}>
         <h3>Volunteerism</h3>
-
-              <p>Green Space Alliance | San Antonio, Texas</p>
-  
-              <p>City of San Antonio Parks and Recreation | San Antonio, Texas</p>
-
-              <p>Historical Society | San Antonio, Texas</p>
-
-              <p>Force of Nature | Vancouver, British Columbia</p>
-              
-             <p>Saint City Supper Club | San Antonio, Texas</p>
-        
+        <p>Green Space Alliance | San Antonio, Texas</p>
+        <p>City of San Antonio Parks and Recreation | San Antonio, Texas</p>
+        <p>Historical Society | San Antonio, Texas</p>
+        <p>Force of Nature | Vancouver, British Columbia</p>
+        <p>Saint City Supper Club | San Antonio, Texas</p>
         <br /> <br />
       </Col>
     </section>
