@@ -36,7 +36,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TrackMyBudget.png",
       description:
-        "TeachMeTo is an application built with React. It is a place where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
+        "Track My Budget is an application built with React that helps the user track their budget simply.",
       link: "https://limitless-sierra-65574.herokuapp.com/",
       repo: "https://github.com/sidoniag/trackmybudget",
     },
