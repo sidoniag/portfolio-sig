@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -8,6 +7,7 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import { Box } from '@chakra-ui/core';
 
 function App() {
   const [categories] = useState([
@@ -19,18 +19,32 @@ function App() {
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const renderPage = () => {
-    switch (currentCategory.name) {
-      case "portfolio":
-        return <Portfolio />;
-      case "contact":
-        return <Contact />;
-      case "resume":
-        return <Resume />;
-      default:
-        return <About />;
-    }
-  };
+//   const renderPage = () => {
+//     switch (currentCategory.name) {
+//       case "portfolio":
+//         return <Portfolio />;
+//       case "contact":
+//         return <Contact />;
+//       case "resume":
+//         return <Resume />;
+//       default:
+//         return <About />;
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <Nav
+//         categories={categories}
+//         setCurrentCategory={setCurrentCategory}
+//         currentCategory={currentCategory}
+//       ></Nav>
+//       <Header></Header>
+//       <main>{renderPage()}</main>
+//       <Footer></Footer>
+//     </div>
+//   );
+// }
 
   return (
     <div>
@@ -40,7 +54,11 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <Header></Header>
-      <main>{renderPage()}</main>
+      <main>
+      <Portfolio></Portfolio>
+      <Contact></Contact>
+      <Resume></Resume>
+      </main>
       <Footer></Footer>
     </div>
   );

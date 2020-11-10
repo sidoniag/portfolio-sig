@@ -1,5 +1,4 @@
 import React from "react";
-// import Nav from '../Nav';
 import { Container } from "reactstrap";
 import { Box, Image } from "@chakra-ui/core";
 
