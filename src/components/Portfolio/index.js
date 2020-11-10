@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 import { Box } from "@chakra-ui/core";
+import { Carousel, CarouselItem } from "reactstrap";
 
 function Portfolio() {
   const [projects] = useState([
@@ -50,9 +51,25 @@ function Portfolio() {
         Below are a few projects from the past six months. My primary role was
         front-end design, asset creation, and communication refinement.
       </p>
+      <div>
+    
+      {/* <Carousel>
+        {
+        projects.map((project) => (
+          
+          <Project
+          project={project}
+          key={project}
+          />
+        
+        ))
+        }
+        </Carousel> */}
+      
       {projects.map((project, idx) => (
         <Project project={project} key={"project" + idx} />
       ))}
+     </div>
     </div>
   );
 }

@@ -12,7 +12,6 @@ function Resume() {
           rounded="lg"
           overflow="hidden"
           bg="tomato"
-          lineHeight="1.3px"
         >
         </Box>
         <br />
@@ -22,12 +21,13 @@ function Resume() {
           <Image
             className="headshot"
             align-self="right"
-            size="180px"
+            size="130px"
             objectFit="cover"
             src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
             alt="headshot"
           ></Image>
         </Flex>
+        {/* <Button onClick="download">CV2020 PDF</Button> */}
 
         </Col>
         

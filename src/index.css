@@ -121,6 +121,11 @@ h6 {
   font-weight: bold;
 }
 */
+.quote {
+  font-size: 60%;
+  font-style: italic;
+  text-align: end;
+}
 
 .flex-row {
   background: var(--dark);
@@ -421,4 +426,13 @@ a.name:hover {
   height: 3.1rem;
   align-content: center;
   justify-content: center;
+}
+
+.tree {
+  float: right;
+}
+
+.grow {
+  float: right;
+  font-size: xx-large;
 }

@@ -6,8 +6,7 @@ function About() {
   return (
     <section>
       <Box bg="tomato" w="100%" p={3} color="white"></Box>
-      <br />
-      <h2>always grow.</h2>
+      <h2 className="grow">always grow.</h2>
       <Image
         className="tree"
         size="300px"
@@ -16,7 +15,7 @@ function About() {
         alt="tree"
       ></Image>
       <Container className="main">
-          
+          <br />
         <h4>
           Hello, nice to meet you.
           <br /> My name is Sarah Idonia Garrett.
@@ -24,13 +23,13 @@ function About() {
         <br />
 
         <p>I am an artist, over-thinker, and always in development.</p>
-        <p>
-          <i>
+        <p className="quote">
+  
             I'm the Doctor. Well, they call me the Doctor. I don't know why. I
             call me the Doctor too. I still don't know why. *Insistently* Bow
             ties are cool! Come on Amy, I'm a normal bloke, tell me what normal
             blokes do!
-          </i>
+
         </p>
       </Container>
     </section>

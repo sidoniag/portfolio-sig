@@ -55,6 +55,7 @@ function App() {
       ></Nav>
       <Header></Header>
       <main>
+        <About></About>
       <Portfolio></Portfolio>
       <Contact></Contact>
       <Resume></Resume>
