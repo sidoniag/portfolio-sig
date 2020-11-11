@@ -17,6 +17,24 @@ function Resume() {
         <br />
         <h2>SARAH IDONIA GARRETT</h2>
         <h4>CV2020</h4>
+        <Box>
+          <h5>Front-End Technologies</h5>
+          <p>HTML5</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>React</p>
+          <p>Bootstrap</p>
+          <p>Adobe XD</p>
+
+          <h5>Back-End Technologies</h5>
+          <p>APIs</p>
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>MySQL | Sequelize</p>
+          <p>MongoDB | Mongoose</p>
+          <p>REST</p>
+          <p>MERN</p>
+        </Box>
         <Flex align="center" justify="center">
           <Image
             className="headshot"
