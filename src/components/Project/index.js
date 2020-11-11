@@ -6,7 +6,7 @@ function Project({ project }) {
 
   return (
     <div>
-      <Box maxW="sm" borderWidth="1px" rounded="lg" overflow="hidden">
+      <Box p="6" maxW="sm" maxH="sm" borderWidth="1px" rounded="lg" overflow="hidden">
         <Box>
           <Box
             p={4}
@@ -18,9 +18,9 @@ function Project({ project }) {
           >
             {name}
           </Box>
-          <img src={imgUrl} alt={name} />
+          <img size="320px"src={imgUrl} alt={name} />
 
-          <Box>{description}</Box>
+          <Box maxW="xsm" fontSize="sm">{description}</Box>
           <Link className="plain" href={link}>
             Deployed
           </Link>

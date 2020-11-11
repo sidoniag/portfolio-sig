@@ -53,7 +53,6 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       ></Nav>
-      <Header></Header>
       <main>
         <About></About>
       <Portfolio></Portfolio>

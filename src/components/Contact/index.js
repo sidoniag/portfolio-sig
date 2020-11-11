@@ -44,14 +44,15 @@ function ContactForm() {
   return (
     <section>
       <Box
-        maxW="sm"
+        maxW="lg"
         borderWidth="1px"
         rounded="lg"
         overflow="hidden"
         bg="tomato"
+        padding="10px"
       >
         <br />
-      </Box>
+      
       <Box>
         <br />
         <h1 data-testid="h1tag">Get In Touch</h1>
@@ -94,8 +95,11 @@ function ContactForm() {
             <button data-testid="button" type="submit" bg="tomato">
               Submit
             </button>
+            <br />
+            <br />
           </form>
         </Flex>
+      </Box>
       </Box>
     </section>
   );

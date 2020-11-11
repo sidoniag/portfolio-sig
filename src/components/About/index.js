@@ -16,7 +16,7 @@ function About() {
       ></Image>
       <Container className="main">
           <br />
-        <h4>
+        <h4 className="title">
           Hello, nice to meet you.
           <br /> My name is Sarah Idonia Garrett.
         </h4>

@@ -12,6 +12,18 @@ code {
     monospace;
 }
 
+.portfolio {
+
+   padding-top: none;
+}
+
+.css-wch4ty {
+  padding: 0px;
+}
+
+.css-37zcu0 {
+  padding: 0px;
+}
 /* .CardLink {
   color: blueviolet;
 } */ 
@@ -33,8 +45,9 @@ code {
 
 main {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   padding: 50px 30px;
+  background-color: #555B6E;
 }
 :root {
   --primary: #FFD6BA;
@@ -66,7 +79,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.1em;
   background: #f2f2f2;
-  color: var(--dark);
+  color: var(--light);
 }
 
 h1,
@@ -126,6 +139,10 @@ h6 {
   font-style: italic;
   text-align: end;
 }
+
+/* .title {
+  float: right;
+} */
 
 .flex-row {
   background: var(--dark);
