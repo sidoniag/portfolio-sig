@@ -5,7 +5,7 @@ import { Box, Image } from "@chakra-ui/core";
 function About() {
   return (
     <section>
-      <Box bg="tomato" w="100%" p={3} color="white"></Box>
+      <Box bg="tomato" w="100%" p={3} color="white" className="#About"></Box>
       <h2 className="grow">always grow.</h2>
       <Image
         className="tree"

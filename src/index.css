@@ -22,7 +22,14 @@ code {
 }
 
 .css-37zcu0 {
+  margin: 0;
   padding: 0px;
+}
+
+.portfolio {
+  flex-direction: row;
+  padding: 0px;
+  margin: 0;
 }
 /* .CardLink {
   color: blueviolet;
@@ -42,7 +49,12 @@ code {
 
 /* tESING SPOT  */
 
-
+.App {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 50px 30px;
+  background-color: #35403A;
+}
 main {
   margin: 0 auto;
   max-width: 100%;

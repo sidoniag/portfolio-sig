@@ -37,7 +37,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
       description:
-        "Bathed in soothing colors, SootheR is an application where the user can search and read news articles while getting some encouraging words across the top of their screens.",
+        "SootheR is an application where the user can discover news articles. Encouraging quotes help to bear the headlines.",
       link: "https://devmadia.github.io/soother/",
       repo: "https://github.com/Devmadia/sootheR",
     },
@@ -57,6 +57,7 @@ function Portfolio() {
   return (
     <div>
       <Box
+      className="#Portfolio"
         maxW="sm"
         borderWidth="1px"
         rounded="lg"
@@ -64,7 +65,6 @@ function Portfolio() {
         bg="tomato"
       >
           <br />
-        
       </Box>
       <br />
       <h1>Portfolio</h1>
@@ -86,12 +86,13 @@ function Portfolio() {
         ))
         }
         </Carousel> */}
-             <Box  alignItems="baseline"
+        
+             {/* <Box alignItems="baseline"
         maxW="sm"
         borderWidth="1px"
         rounded="lg"
         overflow="hidden"
-      >
+      > */}
   
      
       {projects.map((project, idx) => (
@@ -100,7 +101,7 @@ function Portfolio() {
 
 <br />
         
-        </Box>
+        {/* </Box> */}
 
      </div>
     

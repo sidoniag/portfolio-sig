@@ -4,9 +4,10 @@ import { Box, Image, Flex, Button } from "@chakra-ui/core";
 
 function Resume() {
   return (
-
+    <section id="Resume">
       <Col xs={12}>
         <Box
+        
           maxW="sm"
           borderWidth="1px"
           rounded="lg"
@@ -49,7 +50,7 @@ function Resume() {
 
         </Col>
         
-
+        </section>
   )
 };
 

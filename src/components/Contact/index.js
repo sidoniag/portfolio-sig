@@ -44,6 +44,7 @@ function ContactForm() {
   return (
     <section>
       <Box
+      className="#Contact"
         maxW="lg"
         borderWidth="1px"
         rounded="lg"

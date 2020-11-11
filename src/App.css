@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: grey;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,5 +38,5 @@
 }
 
 .App-projects {
-  background-color: white;
+  background-color: #35403A;
 }
