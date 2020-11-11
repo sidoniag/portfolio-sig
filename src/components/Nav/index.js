@@ -5,8 +5,8 @@ function Nav(props) {
   const { categories = [], setCurrentCategory, currentCategory } = props;
 
   return (
-      <Row>
-        <nav>
+     
+        <nav className="flex-row">
           <ul className="flex-row">
             {categories.map((category) => (
               <li key={category.name}>
@@ -22,7 +22,7 @@ function Nav(props) {
             ))}
           </ul>
         </nav>
-        </Row>
+ 
   );
 }
 

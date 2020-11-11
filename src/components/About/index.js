@@ -9,18 +9,19 @@ function About() {
       <h2 className="grow">always grow.</h2>
       <Image
         className="tree"
-        size="300px"
+        size="200px"
         objectFit="cover"
         src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/tree.jpg"
         alt="tree"
       ></Image>
+      <br />
       <Container className="main">
           <br />
         <h4 className="title">
           Hello, nice to meet you.
           <br /> My name is Sarah Idonia Garrett.
         </h4>
-        <br />
+       
 
         <p>I am an artist, over-thinker, and always in development.</p>
         <p className="quote">

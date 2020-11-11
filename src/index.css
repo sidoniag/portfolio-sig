@@ -47,7 +47,7 @@ main {
   margin: 0 auto;
   max-width: 100%;
   padding: 50px 30px;
-  background-color: #555B6E;
+  background-color: #35403A;
 }
 :root {
   --primary: #FFD6BA;
@@ -145,7 +145,7 @@ h6 {
 } */
 
 .flex-row {
-  background: var(--dark);
+  background:#252626;
   display: flex;
   flex-wrap: wrap;
   height: 3.1rem;
@@ -438,6 +438,7 @@ a.name:hover {
 } */ 
 
 .footer {
+  background-color: #252626;
   display: flex;
   flex-wrap: wrap;
   height: 3.1rem;

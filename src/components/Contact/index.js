@@ -51,7 +51,6 @@ function ContactForm() {
         bg="tomato"
         padding="10px"
       >
-        <br />
       
       <Box>
         <br />
