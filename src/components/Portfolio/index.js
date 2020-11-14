@@ -58,19 +58,19 @@ function Portfolio() {
     <div>
       <Box
       className="#Portfolio"
-        
-        borderWidth="1px"
-        rounded="lg"
+      height=".3rem"
+        borderWidth=".3rem"
+        rounded="md"
         overflow="hidden"
         bg="tomato"
       >
-          <br />
+        
       </Box>
-      <br />
+ 
       <h1>Portfolio</h1>
       <p class="center">
-        Below are a few projects from the past six months. My primary role was
-        front-end design, asset creation, and communications.
+        Below are a handful of recent projects. My primary role included:
+        Front-end design, asset creation, and communications . 
       </p>
     
     
@@ -87,12 +87,12 @@ function Portfolio() {
         }
         </Carousel> */}
         
-             {/* <Box alignItems="baseline"
+             <Box alignItems="baseline"
         maxW="sm"
         borderWidth="1px"
-        rounded="lg"
+        rounded="md"
         overflow="hidden"
-      > */}
+      >
   
      
       {projects.map((project, idx) => (
@@ -101,7 +101,7 @@ function Portfolio() {
 
 <br />
         
-        {/* </Box> */}
+        </Box>
 
      </div>
     

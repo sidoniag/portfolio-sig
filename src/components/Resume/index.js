@@ -16,15 +16,15 @@ function Resume() {
         >
         </Box>
         <br />
-        <h2>CV2020</h2>
-        <Box className="resume"
+        <div className="center">
+        <Box 
         display="inline-block">
         <Box className="tech"
         backgroundColor="grey"
         padding="10px"
         maxW="sm"
         textAlign="center">
-          <h5>Front-End Technologies</h5>
+          <h4>Front-End Technologies</h4>
           <p>HTML5</p>
           <p>CSS</p>
           <p>JavaScript</p>
@@ -47,16 +47,8 @@ function Resume() {
           <p>MERN</p>
         </Box>
         </Box>
-        <Flex align="center" justify="center">
-          <Image
-            className="headshot"
-            align-self="right"
-            size="130px"
-            objectFit="cover"
-            src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
-            alt="headshot"
-          ></Image>
-        </Flex>
+        </div>
+
         {/* <Button onClick="download">CV2020 PDF</Button> */}
 
         </Col>

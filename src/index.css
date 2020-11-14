@@ -17,6 +17,10 @@ code {
    padding-top: none;
 }
 
+.center {
+  align-content: center;
+}
+
 .css-wch4ty {
   padding: 0px;
 }
@@ -31,23 +35,6 @@ code {
   padding: 0px;
   margin: 0;
 }
-/* .CardLink {
-  color: blueviolet;
-} */ 
-
-/* tESING SPOT  */
- /* style {
-  backgroundColor: "red";
-  borderTop: "1px solid #yellow";
-  textAlign: "center";
-  padding: "20px";
-  position: "fixed";
-  left: "0"; 
-  height: "60px";
-  width: "100%";
-}; */
-
-/* tESING SPOT  */
 
 .App {
   margin: 0 auto;
@@ -124,8 +111,9 @@ h3 {
 
 h4 {
   font-size: 1.7rem;
+  font-weight: bold;
   background-color: tomato;
-  padding: 3px;
+  padding: .5rem;
 }
 
 h5 {
@@ -201,10 +189,6 @@ div {margin: 0 auto} */
       -webkit-transform: scale(1.01);
     }
 
-/* 
-header {
-  background: var(--dark);
-} */
 
 /* button {
   font-size: 1rem;
@@ -232,36 +216,6 @@ img {
   max-width: 100%;
 }
 
-/* span[role='img'] {
-  cursor: default;
-}
-
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
-
-textarea {
-  width: 600px;
-  height: 120px;
-  border: 3px solid #cccccc;
-  padding: 5px;
-} */ */
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -278,6 +232,7 @@ textarea {
   padding: 10px;
   justify-content: space-around;
   max-width: 40%;
+  align-self: center;
 } */
 
 .resume {
@@ -398,28 +353,7 @@ button {
 .navActive {
   color: var(--tertiary);
 }
-/*
-.primary {
-  color: tomato;
-}
 
-.primary:hover {
-  text-decoration: none;
-  color: green;
-}
-
-.card.resume {
-  width: 100%;
-  border-radius: 8px;
-  border: 3px green; */  */
-  /* background-color: red; */
-/* }
-
-h3 {
-  color: tomato;
-  text-decoration: italic;
-}
-*/
 .link {
   color: grey;
   text-decoration: none;
@@ -438,53 +372,12 @@ a.plain:hover {
   text-decoration: none;
   color: tomato;
 }
-/* 
-.dark {
-  background-color: grey;
-}
-
-a.star {
-  text-decoration: none;
-  color: darkgreen;
-  size: 1.3rem;
-}
-
-a.star:hover{
-  text-decoration: none;
-  color: grey;
-}
-
-.jumbotron.nameTron {
-  background:  (img src="/images/tree.JPG"); */
-  /* opacity: 50%; */
-  /* width: 100%;
-}
-
-.img.headshot {
-  align-self: flex-end;
-} */
 
 .center {
-  align-self: center;
+  align-content: center;
   display: flex;
 }
 
-/* .main {
-  background: img src="/images/tree.JPG";
-}
-
-a.name {
-  color: tomato;
-}
-
-a.name:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.jumbo {
-  position: sticky;
-} */ 
 
 .footer {
   background-color: #252626;

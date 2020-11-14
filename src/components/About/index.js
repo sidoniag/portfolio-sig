@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import { Box, Image } from "@chakra-ui/core";
+import { Box, Image, Flex} from "@chakra-ui/core";
 
 function About() {
   return (
@@ -31,12 +31,23 @@ function About() {
         <p>I am an artist, over-thinker, and always in development.</p>
         </Box>
         <Box bg="transparent" w="100%" p={1} color="white"></Box>
-        <p className="quote">
+        <p className="quote"
+        size="xsm">
           I'm the Doctor. Well, they call me the Doctor. I don't know why. I
           call me the Doctor too. I still don't know why. *Insistently* Bow ties
           are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
           do!
         </p>
+        <Flex align="center" justify="center">
+          <Image
+            className="headshot"
+            align-self="right"
+            size="130px"
+            objectFit="cover"
+            src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
+            alt="headshot"
+          ></Image>
+        </Flex>
       </Container>
     </section>
   );
