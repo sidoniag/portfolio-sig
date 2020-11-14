@@ -86,12 +86,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+       
         <Nav data={this.state.resumeData.nav}/>
+        <div className="main">
         <About data={this.state.resumeData.main}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
         <Contact data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Footer data={this.state.resumeData.main}/>
+      </div>
       </div>
     );
   }

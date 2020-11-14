@@ -5,7 +5,13 @@ import { Box, Image } from "@chakra-ui/core";
 function About() {
   return (
     <section>
-      <Box bg="tomato" w="100%" p={3} color="white" className="#About"></Box>
+      <Box
+        bg="transparent"
+        w="100%"
+        p={1}
+        color="white"
+        className="#About"
+      ></Box>
       <h2 className="grow">always grow.</h2>
       <Image
         className="tree"
@@ -16,21 +22,20 @@ function About() {
       ></Image>
       <br />
       <Container className="main">
-          <br />
+        <br />
         <h4 className="title">
           Hello, nice to meet you.
           <br /> My name is Sarah Idonia Garrett.
         </h4>
-       
-
+        <Box bg="transparent" w="100%" p={1} color="white">
         <p>I am an artist, over-thinker, and always in development.</p>
+        </Box>
+        <Box bg="transparent" w="100%" p={1} color="white"></Box>
         <p className="quote">
-  
-            I'm the Doctor. Well, they call me the Doctor. I don't know why. I
-            call me the Doctor too. I still don't know why. *Insistently* Bow
-            ties are cool! Come on Amy, I'm a normal bloke, tell me what normal
-            blokes do!
-
+          I'm the Doctor. Well, they call me the Doctor. I don't know why. I
+          call me the Doctor too. I still don't know why. *Insistently* Bow ties
+          are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
+          do!
         </p>
       </Container>
     </section>

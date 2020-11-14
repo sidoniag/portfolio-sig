@@ -52,14 +52,15 @@ code {
 .App {
   margin: 0 auto;
   max-width: 100%;
-  padding: 50px 30px;
+  
   background-color: #35403A;
 }
-main {
+.main {
   margin: 0 auto;
-  max-width: 100%;
-  padding: 50px 30px;
+  
+  padding: 10px;
   background-color: #35403A;
+  align-content: center;
 }
 :root {
   --primary: #FFD6BA;
@@ -122,8 +123,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.4rem;
-  
+  font-size: 1.7rem;
+  background-color: tomato;
+  padding: 3px;
 }
 
 h5 {
@@ -154,11 +156,11 @@ h6 {
 .quote {
   font-size: 60%;
   font-style: italic;
-  text-align: end;
+  text-align: right;
 }
 
 /* .title {
-  float: right;
+  padding-left: .5rem;
 } */
 
 .flex-row {
@@ -381,20 +383,22 @@ button {
   margin-bottom: 30px;
   padding: 10px 15px;
 }
+*/
 
-a {
+ a {
   border-radius: 5px;
   color: var(--secondary);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
-}
+ }
+
 
 .navActive {
   color: var(--tertiary);
 }
-
+/*
 .primary {
   color: tomato;
 }
@@ -493,6 +497,7 @@ a.name:hover {
 
 .tree {
   float: right;
+  padding: 1rem;
 }
 
 .grow {
