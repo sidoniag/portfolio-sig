@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -14,11 +14,11 @@
 }
 
 .App-header {
-  background-color: grey;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: gray;
@@ -38,5 +38,5 @@
 }
 
 .App-projects {
-  background-color: white;
+  background-color: #35403A;
 }

@@ -44,61 +44,23 @@ function ContactForm() {
   return (
     <section>
       <Box
-        maxW="sm"
+      className="#Contact"
+        maxW="lg"
         borderWidth="1px"
         rounded="lg"
         overflow="hidden"
         bg="tomato"
+        padding="10px"
+        textAlign="center"
       >
-        <br />
-      </Box>
-      <Box>
-        <br />
-        <h1 data-testid="h1tag">Get In Touch</h1>
-        <br />
-        <Flex align="center" justify="center">
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                defaultValue={name}
-                onBlur={handleChange}
-              />
-            </div>
-            <div>
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                defaultValue={email}
-                onBlur={handleChange}
-              />
-            </div>
-            <div>
-              <label htmlFor="message">Message</label>
-              <input
-                name="message"
-                rows="5"
-                defaultValue={message}
-                onBlur={handleChange}
-              />
-            </div>
-            {errorMessage && (
-              <div>
-                <p className="error-text">{errorMessage}</p>
-              </div>
-            )}
-            <br />
-            <button data-testid="button" type="submit" bg="tomato">
-              Submit
-            </button>
-          </form>
-        </Flex>
-      </Box>
-    </section>
-  );
-}
+     
+          <h1>Contact Me</h1>
+          <a className="light" href="seekersig@gmail.com" />
+        
+  
+    </Box> 
 
+     </section>
+  )
+}
 export default ContactForm;
