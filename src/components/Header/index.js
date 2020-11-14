@@ -8,10 +8,7 @@ function Header() {
         <section>
             
             <header>
-     
-                <Box className="jumbo">
-                {/* <Image src={require('../../assets/tree.jpg')} width="80%" alt="oaktree" /> */}
-                </Box>
+
             </header>
         </section>
     );
