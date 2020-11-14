@@ -6,7 +6,7 @@ function Project({ project }) {
 
   return (
     <div>
-      <Box className="portfolio" p="6" maxW="sm" maxH="sm" borderWidth="1px" rounded="lg" overflow="hidden">
+      <Box className="portfolio"   maxH="sm" borderWidth="1px" rounded="lg" overflow="hidden">
         <Box>
           <Box 
             p={4}

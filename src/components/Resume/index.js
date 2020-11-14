@@ -16,9 +16,14 @@ function Resume() {
         >
         </Box>
         <br />
-        <h2>SARAH IDONIA GARRETT</h2>
-        <h4>CV2020</h4>
-        <Box>
+        <h2>CV2020</h2>
+        <Box className="resume"
+        display="inline-block">
+        <Box className="tech"
+        backgroundColor="grey"
+        padding="10px"
+        maxW="sm"
+        textAlign="center">
           <h5>Front-End Technologies</h5>
           <p>HTML5</p>
           <p>CSS</p>
@@ -26,8 +31,13 @@ function Resume() {
           <p>React</p>
           <p>Bootstrap</p>
           <p>Adobe XD</p>
-
-          <h5>Back-End Technologies</h5>
+</Box>
+<Box className="tech"
+  backgroundColor="tomato"
+  padding="10px"
+  maxW="sm"
+  textAlign="center">
+          <h4>Back-End Technologies</h4>
           <p>APIs</p>
           <p>Node.js</p>
           <p>Express</p>
@@ -35,6 +45,7 @@ function Resume() {
           <p>MongoDB | Mongoose</p>
           <p>REST</p>
           <p>MERN</p>
+        </Box>
         </Box>
         <Flex align="center" justify="center">
           <Image

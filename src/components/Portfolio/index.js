@@ -58,7 +58,7 @@ function Portfolio() {
     <div>
       <Box
       className="#Portfolio"
-        maxW="sm"
+        
         borderWidth="1px"
         rounded="lg"
         overflow="hidden"
