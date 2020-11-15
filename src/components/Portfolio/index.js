@@ -105,7 +105,6 @@ function Portfolio() {
 <br />
         
         </Box>
-
      </div>
     
     

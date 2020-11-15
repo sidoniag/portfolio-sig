@@ -23,22 +23,25 @@ function Project({ project }) {
           <img size="320px"src={imgUrl} alt={name} />
           <Flex align="center" justify="center">
           <Box maxW="xsm" fontSize="sm">{description}
-          <Box bg="transparent" border="3px" borderColor="tomato">
+         
+          <Box className="center" textAlign="center" >
+            <br />
           <Link className="plain" href={link}>
             Deployed
           </Link>
-          </Box>
-          <Box border="1px" borderColor="tomato">
+       
           <Link className="plain" href={repo}>
             GitHub
           </Link>
+
           </Box>
-          
+
           </Box>
           </Flex>
         </Box>
       
       </Box>
+      <br />
     </div>
   );
 }

@@ -7,52 +7,42 @@ function Resume() {
     <section id="Resume">
       <Col xs={12}>
         <Box
-        
           maxW="sm"
           borderWidth="1px"
           rounded="lg"
           overflow="hidden"
           bg="tomato"
-        >
-        </Box>
-        <br />
-        <div className="center">
-        <Box 
-        display="inline-block">
-        <Box className="tech"
-        backgroundColor="grey"
-        padding="10px"
-        maxW="sm"
-        textAlign="center">
-          <h4>Front-End Technologies</h4>
-          <p>HTML5 | CSS</p><br/>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Bootstrap</p>
-</Box>
-<Box className="tech"
-  backgroundColor="tomato"
-  padding="10px"
-  maxW="sm"
-  textAlign="center">
-          <h4>Back-End Technologies</h4>
-          <p>APIs</p>
-          <p>Node.js</p>
-          <p>Express</p>
-          <p>MySQL | Sequelize</p>
-          <p>MongoDB | Mongoose</p>
-          <p>REST</p>
-          <p>MERN</p>
-        </Box>
-        </Box>
-        </div>
+        ></Box>
+        <Box alignSelf="center">
+          <Box className="tech" padding="10px" maxW="md" textAlign="center">
+            <h4>Front-End Technologies</h4>
+          </Box>
 
-        {/* <Button onClick="download">CV2020 PDF</Button> */}
+          <Box className="center" textAlign="center">
+            <p>HTML5 | JavaScript </p>
+            <p>CSS | Sass</p>
+            <p>React | Bootstrap</p>
+            <p>Figma | XD</p>
+          </Box>
 
-        </Col>
-        
-        </section>
-  )
-};
+          <Box className="center" padding="10px" maxW="md" textAlign="center">
+            <h4>Back-End Technologies</h4>
+          </Box>
+          <Box className="center" textAlign="center">
+            <p>
+              APIs | REST
+              <p>Node.js | Express</p>
+              <p>MySQL | Sequelize</p>
+              <p>MongoDB | Mongoose</p>
+              <p>MERN</p>
+            </p>
+          </Box>
+        </Box>
+      </Col>
+
+      {/* <Button onClick="download">CV2020 PDF</Button> */}
+    </section>
+  );
+}
 
 export default Resume;

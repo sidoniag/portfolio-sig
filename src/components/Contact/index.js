@@ -45,15 +45,15 @@ function ContactForm() {
     <section>
       <Box
       className="#Contact"
-        maxW="lg"
         borderWidth="1px"
-        rounded="lg"
+        rounded="md"
+        maxW="sm"
         overflow="hidden"
         bg="tomato"
-        padding="10px"
+        padding="8px"
+        alignSelf="center"
         textAlign="center"
       >
-     
           <h1>Contact Me</h1>
           <a className="light" href="seekersig@gmail.com" />
         

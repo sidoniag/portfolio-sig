@@ -354,7 +354,7 @@ a.plain:hover {
 }
 
 .center div{
-  width: 70%;
+
   display: flex;
   flex-wrap: wrap;
   align-content: center;
