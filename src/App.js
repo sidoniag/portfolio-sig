@@ -86,7 +86,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav data={this.state.resumeData.nav}/>
+        {/* <Nav data={this.state.resumeData.nav}/> */}
+        {/* <Nav /> */}
         <div className="main"
         maxWidth="90%">
         <About data={this.state.resumeData.main}/>
