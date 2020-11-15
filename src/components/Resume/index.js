@@ -25,12 +25,11 @@ function Resume() {
         maxW="sm"
         textAlign="center">
           <h4>Front-End Technologies</h4>
-          <p>HTML5</p>
-          <p>CSS</p>
+          <p>HTML5 | CSS</p><br/>
+          
           <p>JavaScript</p>
           <p>React</p>
           <p>Bootstrap</p>
-          <p>Adobe XD</p>
 </Box>
 <Box className="tech"
   backgroundColor="tomato"
