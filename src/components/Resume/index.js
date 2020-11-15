@@ -26,7 +26,6 @@ function Resume() {
         textAlign="center">
           <h4>Front-End Technologies</h4>
           <p>HTML5 | CSS</p><br/>
-          
           <p>JavaScript</p>
           <p>React</p>
           <p>Bootstrap</p>
