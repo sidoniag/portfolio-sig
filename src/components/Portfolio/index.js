@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Project from "../Project";
-import { Box } from "@chakra-ui/core";
+import { Box, Flex } from "@chakra-ui/core";
 import { Carousel, CarouselItem, CarouselCaption, CarouselControl, CarouselIndicators, Row } from "reactstrap";
 
 function Portfolio() {
@@ -68,10 +68,12 @@ function Portfolio() {
       </Box>
  
       <h1>Portfolio</h1>
+      <Flex align="center" justify="center">
       <p class="center">
         Below are a handful of recent projects. My primary role included:
         Front-end design, asset creation, and communications . 
       </p>
+      </Flex>
     
     
       {/* <Carousel>
@@ -92,6 +94,7 @@ function Portfolio() {
         borderWidth="1px"
         rounded="md"
         overflow="hidden"
+        padding="30px"
       >
   
      

@@ -30,14 +30,9 @@ function About() {
         <Box bg="transparent" w="100%" p={1} color="white">
         <p>I am an artist, over-thinker, and always in development.</p>
         </Box>
-        <Box bg="transparent" w="100%" p={1} color="white"></Box>
-        <p className="quote"
-        size="xsm">
-          I'm the Doctor. Well, they call me the Doctor. I don't know why. I
-          call me the Doctor too. I still don't know why. *Insistently* Bow ties
-          are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
-          do!
-        </p>
+        <Flex align="center" justify="center">
+        <Box border="1px" bg="transparent" w="60%" p={1} color="white">
+       
         <Flex align="center" justify="center">
           <Image
             className="headshot"
@@ -47,6 +42,16 @@ function About() {
             src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
             alt="headshot"
           ></Image>
+        </Flex>
+        <p className="quote"
+        size="xsm" text-wrap="wrap-around">
+          I'm the Doctor. Well, they call me the Doctor. I don't know why. I
+          call me the Doctor too. I still don't know why. 
+        *Insistently* Bow ties
+          are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
+          do!
+        </p>
+        </Box>
         </Flex>
       </Container>
     </section>

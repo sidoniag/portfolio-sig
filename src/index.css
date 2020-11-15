@@ -132,6 +132,18 @@ h6 {
   text-decoration: none;
 }
 
+.light:hover {
+  text-decoration: none;
+}
+
+.deploy {
+  background-color: transparent;
+}
+
+.deploy:on-hover {
+  background-color: tomato;
+}
+
 /* p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -177,9 +189,6 @@ nav li {
 nav a:hover {
   text-decoration: none;
 }
-/* 
-body {width: 600px; height: 600px auto;text-align: center}
-div {margin: 0 auto} */
 
 .headshot {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
@@ -193,29 +202,6 @@ div {margin: 0 auto} */
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.01);
     }
-
-
-/* button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
-*/
 
 img {
   max-width: 100%;
@@ -332,17 +318,6 @@ img {
   margin-bottom: 25px;
 }
 
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
 */
 
  a {
