@@ -24,7 +24,7 @@ function Portfolio() {
       repo: "https://github.com/evkonradi/cardsocial",
     },
     {
-      name: "TrackMyBudget",
+      name: "Track My Budget",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TrackMyBudget.png",
       description:
@@ -68,9 +68,9 @@ function Portfolio() {
       </Box>
  
       <h1>Portfolio</h1>
-      <Flex align="center" justify="center">
+      <Flex textAlign="center" justify="center">
       <p class="center">
-        Below are a handful of recent projects. My primary role included:
+        Below are a handful of recent projects.<br /> My primary role included:<br />
         Front-end design, asset creation, and communications . 
       </p>
       </Flex>
