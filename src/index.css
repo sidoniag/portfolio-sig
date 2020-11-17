@@ -232,7 +232,6 @@ a {
   padding: var(--spacing-five);
   align-self: stretch;
   font-size: small;
-  
   align-content: center;
 }
 a:hover {
