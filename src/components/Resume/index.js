@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/core";
 
 function Resume() {
   return (
-    <section id="Resume">
+    <section id="resume">
       <Col xs={12}>
       <Box
       className="#Contact"

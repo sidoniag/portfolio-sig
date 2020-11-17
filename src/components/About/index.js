@@ -4,7 +4,7 @@ import { Box, Image, Flex} from "@chakra-ui/core";
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <Box
         bg="transparent"
         w="100%"

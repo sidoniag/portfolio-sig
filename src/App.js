@@ -44,7 +44,7 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -86,9 +86,11 @@ function App() {
 
     return (
       <div className="App">
-        <Nav/>
         <div className="main"
-        maxWidth="90%">
+         maxWidth="90%">
+        <Navbar/>
+        
+       
         <About />
         <Portfolio />
         <Resume />

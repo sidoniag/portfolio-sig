@@ -42,7 +42,7 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section id="contact">
   <Box className="center" padding="10px" maxW="md" textAlign="center">
   <h4>Contact Me</h4>
         <Flex align="center" justify="center">

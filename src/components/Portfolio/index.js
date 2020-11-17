@@ -54,19 +54,10 @@ function Portfolio() {
 
 
   return (
-    <div>
-      <Box
-      className="#Portfolio"
-      height=".3rem"
-        borderWidth=".3rem"
-        rounded="md"
-        overflow="hidden"
-        bg="tomato"
-      >
-        
-      </Box>
+    <section id="portfolio">
+    <div >
  
-      <h1>Portfolio</h1>
+      <h4>Portfolio</h4>
       <Flex textAlign="center" justify="center">
       <p class="center">
         Below are a handful of recent projects.<br /> My primary role included:<br />
@@ -92,7 +83,7 @@ function Portfolio() {
         </Box>
      </div>
     
-    
+     </section>
   );
 }
 
