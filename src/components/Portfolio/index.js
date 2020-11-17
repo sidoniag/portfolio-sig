@@ -51,39 +51,35 @@ function Portfolio() {
     // },
   ]);
 
-
-
   return (
     <section id="portfolio">
-    <div >
- 
-      <h4>Portfolio</h4>
-      <Flex textAlign="center" justify="center">
-      <p class="center">
-        Below are a handful of recent projects.<br /> My primary role included:<br />
-        Front-end design, asset creation, and communications . 
-      </p>
-      </Flex>
-        
-             <Box alignItems="baseline"
-        maxW="sm"
-        borderWidth="1px"
-        rounded="md"
-        overflow="hidden"
-        padding="20px"
-      >
-  
-     
-      {projects.map((project, idx) => (
-        <Project project={project} key={"project" + idx} />
-      ))}
+      <div>
+        <h4>Portfolio</h4>
+        <Flex textAlign="center" justify="center">
+          <p class="center">
+            Below are a handful of recent projects.
+            <br /> My primary role included:
+            <br />
+            Front-end design, asset creation, and communications .
+          </p>
+        </Flex>
 
-<br />
-        
+        <Box
+          alignItems="baseline"
+          maxW="sm"
+          borderWidth="1px"
+          rounded="md"
+          overflow="hidden"
+          padding="20px"
+        >
+          {projects.map((project, idx) => (
+            <Project project={project} key={"project" + idx} />
+          ))}
+
+          <br />
         </Box>
-     </div>
-    
-     </section>
+      </div>
+    </section>
   );
 }
 

@@ -6,7 +6,7 @@ function Project({ project }) {
 
   return (
     <div>
-      <Box className="portfolio" maxW="md" maxH="md" rounded="lg" overflow="hidden">
+      <Box className="portfolio" maxH="smd" rounded="lg" overflow="hidden">
           <Box 
             p={3}
             mt="1"
@@ -16,7 +16,7 @@ function Project({ project }) {
             className="deploy"
             alignContent="center"
           >
-            <Link className="light" href={link}>
+            <Link className="project_head" href={link}>
             {name}
             </Link>
             </Box>

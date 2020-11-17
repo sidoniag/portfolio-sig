@@ -104,14 +104,6 @@ h6 {
   font-size: 1rem;
 }
 
-.light{
-  color: white;
-  text-decoration: none;
-}
-
-.light:hover {
-  text-decoration: none;
-}
 
 .quote {
   font-size: 60%;
@@ -119,14 +111,6 @@ h6 {
   text-align: right;
 }
 
-.flex-row {
-  background-color: #35403A;
-  
-  display: flex;
-  flex-wrap: wrap;
-  height: 3.1rem;
-  align-content: center;
-}
 link {
   color: grey;
   text-decoration: none;
@@ -137,18 +121,14 @@ link {
   padding: var(--spacing-five);
   align-self: stretch;
   font-size: small;
-  background-color: #35403A;
+  
   align-content: center;
 }
 
-/* a {
-  color: var(--light);
-  text-decoration: none;
-  padding: var(--spacing-five);
-  align-self: stretch;
-  font-size: small;
-  background-color: var(--darker);
-} */
+.navbar {
+  background-color: #35403A;
+  width: 100%;
+}
 
 nav link {
   list-style: none;
@@ -246,7 +226,16 @@ img {
   text-decoration: none;
 }
 
-a.link:hover {
+a { 
+  color: var(--light);
+  text-decoration: none;
+  padding: var(--spacing-five);
+  align-self: stretch;
+  font-size: small;
+  
+  align-content: center;
+}
+a:hover {
   text-decoration: none;
   color: tomato;
 }
@@ -265,6 +254,22 @@ a.plain:hover {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+}
+
+.project_head {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: .5rem;
+  text-align: center;
+}
+
+.project_head:hover {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: .5rem;
+  text-align: center;
+  color: tomato;
+  text-decoration: none;
 }
 
 .tree {
