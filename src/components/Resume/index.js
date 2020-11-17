@@ -1,6 +1,6 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
-import { Box, Image, Flex, Button } from "@chakra-ui/core";
+import { Col } from "reactstrap";
+import { Box } from "@chakra-ui/core";
 
 function Resume() {
   return (

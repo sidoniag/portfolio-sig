@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Project from "../Project";
 import { Box, Flex } from "@chakra-ui/core";
-import { Carousel, CarouselItem, CarouselCaption, CarouselControl, CarouselIndicators, Row } from "reactstrap";
 
 function Portfolio() {
   const [projects] = useState([
@@ -74,20 +73,6 @@ function Portfolio() {
         Front-end design, asset creation, and communications . 
       </p>
       </Flex>
-    
-    
-      {/* <Carousel>
-        {
-        projects.map((project) => (
-          
-          <Project
-          project={project}
-          key={project}
-          />
-        
-        ))
-        }
-        </Carousel> */}
         
              <Box alignItems="baseline"
         maxW="sm"

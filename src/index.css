@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.icon {
+  height: 40px;
+}
+
 .portfolio {
 
    padding-top: none;

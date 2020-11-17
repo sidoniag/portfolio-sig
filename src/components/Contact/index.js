@@ -55,7 +55,11 @@ function ContactForm() {
         textAlign="center"
       >
           <h1>Contact Me</h1>
-          <a className="light" href="seekersig@gmail.com" />
+          <a className="light" href="emailto:seekersig@gmail.com" />
+          <span role="img" aria-label="wave">
+          {" "}
+          say hello👋{" "}
+        </span>
         
   
     </Box> 
