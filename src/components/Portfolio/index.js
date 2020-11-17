@@ -9,7 +9,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.jpg",
       description:
-        "TeachMeTo is an application built with React. It is a place where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
+        "TeachMeTo is built with React where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
       link: "https://floating-spire-39046.herokuapp.com/",
       repo: "https://github.com/evkonradi/teach-me-to",
     },
@@ -18,7 +18,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/CardSocial.jpg",
       description:
-        "Card Social is an application for users that have multiple hussles and want to connect. Users can create unique cards to share with others via QRcode.",
+        "Card Social is an application for users that have multiple hussles and want to connect. Users can create unique cards to share with others via Code + QRcode.",
       link: "https://cryptic-shelf-96558.herokuapp.com/",
       repo: "https://github.com/evkonradi/cardsocial",
     },
@@ -36,7 +36,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
       description:
-        "SootheR is an application where the user can discover news articles. Encouraging quotes help to bear the headlines.",
+        "SootheR is an application where the user can discover news articles via NYTimes API. Encouraging quotes make it easier to bear the painful headlines.",
       link: "https://devmadia.github.io/soother/",
       repo: "https://github.com/Devmadia/sootheR",
     },

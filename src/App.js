@@ -91,8 +91,8 @@ function App() {
         maxWidth="90%">
         <About />
         <Portfolio />
-        <Contact />
         <Resume />
+        <Contact />
         <Footer />
       </div>
       </div>

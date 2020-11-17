@@ -28,7 +28,7 @@ function About() {
           <br /> My name is Sarah Idonia Garrett.
         </h4>
         <Box bg="transparent" w="100%" p={1} color="white">
-        <p>I am an artist, over-thinker, and always in development.</p>
+        
         </Box>
         <Flex align="center" justify="center">
         <Box border="1px" bg="transparent" w="60%" p={1} color="white">
@@ -43,15 +43,12 @@ function About() {
             alt="headshot"
           ></Image>
         </Flex>
+        <Flex textAlign="center">
         <p className="quote"
-        size="xsm" text-wrap="wrap-around">
+        size="xsm" text-wrap="wrap-around" >
           I am an artist, over-thinker, and always in development.
-          I'm the Doctor. Well, they call me the Doctor. I don't know why. I
-          call me the Doctor too. I still don't know why. 
-        *Insistently* Bow ties
-          are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes
-          do!
         </p>
+        </Flex>
         </Box>
         </Flex>
       </Container>

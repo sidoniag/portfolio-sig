@@ -43,18 +43,8 @@ function ContactForm() {
 
   return (
     <section>
-      <Box
-      className="#Contact"
-        borderWidth="1px"
-        rounded="md"
-        maxW="sm"
-        overflow="hidden"
-        bg="tomato"
-        padding="8px"
-        alignSelf="center"
-        textAlign="center"
-      >
-  <h1>Contact Me</h1>
+  <Box className="center" padding="10px" maxW="md" textAlign="center">
+  <h4>Contact Me</h4>
         <Flex align="center" justify="center">
           <Image
             className="headshot"
