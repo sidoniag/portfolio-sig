@@ -5,7 +5,7 @@ import { Box, Flex } from "@chakra-ui/core";
 function Portfolio() {
   const [projects] = useState([
     {
-      name: "TeachMeTo",
+      name: "Teach Me To",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.jpg",
       description:
@@ -14,7 +14,7 @@ function Portfolio() {
       repo: "https://github.com/evkonradi/teach-me-to",
     },
     {
-      name: "CardSocial",
+      name: "Card Social",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/CardSocial.jpg",
       description:

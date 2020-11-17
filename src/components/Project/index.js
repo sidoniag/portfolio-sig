@@ -6,8 +6,7 @@ function Project({ project }) {
 
   return (
     <div>
-      <Box className="portfolio"   maxH="sm" borderWidth="1px" rounded="lg" overflow="hidden">
-        <Box>
+      <Box className="portfolio" maxW="md" maxH="md" rounded="lg" overflow="hidden">
           <Box 
             p={3}
             mt="1"
@@ -15,12 +14,14 @@ function Project({ project }) {
             as="h4"
             lineHeight="tight"
             className="deploy"
+            alignContent="center"
           >
             <Link className="light" href={link}>
             {name}
             </Link>
-          </Box>
-          <img size="320px"src={imgUrl} alt={name} />
+            </Box>
+          
+          <img size="280px"src={imgUrl} alt={name} />
           <Flex align="center" justify="center">
           <Box maxW="xsm" fontSize="sm">{description}
          
@@ -38,7 +39,6 @@ function Project({ project }) {
 
           </Box>
           </Flex>
-        </Box>
       
       </Box>
       <br />
