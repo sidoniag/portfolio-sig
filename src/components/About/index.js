@@ -45,6 +45,7 @@ function About() {
         </Flex>
         <p className="quote"
         size="xsm" text-wrap="wrap-around">
+          I am an artist, over-thinker, and always in development.
           I'm the Doctor. Well, they call me the Doctor. I don't know why. I
           call me the Doctor too. I still don't know why. 
         *Insistently* Bow ties

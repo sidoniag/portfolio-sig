@@ -79,7 +79,7 @@ function Portfolio() {
         borderWidth="1px"
         rounded="md"
         overflow="hidden"
-        padding="30px"
+        padding="20px"
       >
   
      

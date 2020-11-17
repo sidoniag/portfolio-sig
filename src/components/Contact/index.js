@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex, Image } from "@chakra-ui/core";
 
 import { validateEmail } from "../../utils/helpers";
 
@@ -54,7 +54,18 @@ function ContactForm() {
         alignSelf="center"
         textAlign="center"
       >
-          <h1>Contact Me</h1>
+  <h1>Contact Me</h1>
+        <Flex align="center" justify="center">
+          <Image
+            className="headshot"
+            align-self="right"
+            size="130px"
+            objectFit="cover"
+            src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
+            alt="headshot"
+          ></Image>
+        </Flex>
+        
           <a className="light" href="emailto:seekersig@gmail.com" />
           <span role="img" aria-label="wave">
           {" "}
