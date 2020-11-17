@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 import Project from "../Project";
-import { Box } from "@chakra-ui/core";
+import { Box, Flex } from "@chakra-ui/core";
 
 function Portfolio() {
   const [projects] = useState([
     {
-      name: "TeachMeTo",
+      name: "Teach Me To",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.jpg",
       description:
-        "TeachMeTo is an application built with React. It is a place where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
+        "TeachMeTo is built with React where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
       link: "https://floating-spire-39046.herokuapp.com/",
       repo: "https://github.com/evkonradi/teach-me-to",
     },
     {
-      name: "CardSocial",
+      name: "Card Social",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/CardSocial.jpg",
       description:
-        "Card Social is an application for users that have multiple hussles and want to connect. Users can create unique cards to share with others via QRcode.",
+        "Card Social is an application for users that have multiple hussles and want to connect. Users can create unique cards to share with others via Code + QRcode.",
       link: "https://cryptic-shelf-96558.herokuapp.com/",
       repo: "https://github.com/evkonradi/cardsocial",
     },
     {
-      name: "TrackMyBudget",
+      name: "Track My Budget",
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TrackMyBudget.png",
       description:
@@ -36,7 +36,7 @@ function Portfolio() {
       imgUrl:
         "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/SootheR.png",
       description:
-        "SootheR is an application where the user can discover news articles. Encouraging quotes help to bear the headlines.",
+        "SootheR is an application where the user can discover news articles via NYTimes API. Encouraging quotes make it easier to bear the painful headlines.",
       link: "https://devmadia.github.io/soother/",
       repo: "https://github.com/Devmadia/sootheR",
     },
@@ -51,46 +51,35 @@ function Portfolio() {
     // },
   ]);
 
-
-
   return (
-    <div>
-      <Box
-      className="#Portfolio"
-      height=".3rem"
-        borderWidth=".3rem"
-        rounded="md"
-        overflow="hidden"
-        bg="tomato"
-      >
-        
-      </Box>
- 
-      <h1>Portfolio</h1>
-      <p class="center">
-        Below are a handful of recent projects. My primary role included:
-        Front-end design, asset creation, and communications . 
-      </p>
-  
-             <Box alignItems="baseline"
-        maxW="sm"
-        borderWidth="1px"
-        rounded="md"
-        overflow="hidden"
-      >
-  
-     
-      {projects.map((project, idx) => (
-        <Project project={project} key={"project" + idx} />
-      ))}
+    <section id="portfolio">
+      <div>
+        <h4>Portfolio</h4>
+        <Flex textAlign="center" justify="center">
+          <p class="center">
+            Below are a handful of recent projects.
+            <br /> My primary role included:
+            <br />
+            Front-end design, asset creation, and communications .
+          </p>
+        </Flex>
 
-<br />
-        
+        <Box
+          alignItems="baseline"
+          maxW="sm"
+          borderWidth="1px"
+          rounded="md"
+          overflow="hidden"
+          padding="20px"
+        >
+          {projects.map((project, idx) => (
+            <Project project={project} key={"project" + idx} />
+          ))}
+
+          <br />
         </Box>
-
-     </div>
-    
-    
+      </div>
+    </section>
   );
 }
 

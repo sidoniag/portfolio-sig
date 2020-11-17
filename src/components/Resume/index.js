@@ -4,55 +4,61 @@ import { Box } from "@chakra-ui/core";
 
 function Resume() {
   return (
-    <section id="Resume">
+    <section id="resume">
       <Col xs={12}>
-        <Box
-        
-          maxW="sm"
-          borderWidth="1px"
-          rounded="lg"
-          overflow="hidden"
-          bg="tomato"
-        >
-        </Box>
-        <br />
-        <div className="center">
-        <Box 
-        display="inline-block">
-        <Box className="tech"
-        backgroundColor="grey"
-        padding="10px"
+      <Box
+      className="#Contact"
+        borderWidth="1px"
+        rounded="md"
         maxW="sm"
-        textAlign="center">
-          <h4>Front-End Technologies</h4>
-          <p>HTML5 | CSS</p><br/>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Bootstrap</p>
-</Box>
-<Box className="tech"
-  backgroundColor="tomato"
-  padding="10px"
-  maxW="sm"
-  textAlign="center">
-          <h4>Back-End Technologies</h4>
-          <p>APIs</p>
-          <p>Node.js</p>
-          <p>Express</p>
-          <p>MySQL | Sequelize</p>
-          <p>MongoDB | Mongoose</p>
-          <p>REST</p>
-          <p>MERN</p>
-        </Box>
-        </Box>
-        </div>
+        overflow="hidden"
+        bg="tomato"
+        padding="8px"
+        alignSelf="center"
+        textAlign="center"
+      >
+        <Box alignSelf="center">
+          <Box className="tech" padding="10px" maxW="md" textAlign="center">
+            <h4>Front-End Technologies</h4>
+          </Box>
+          </Box>
+          </Box>
+          <Box className="center" padding="10px" maxW="md" textAlign="center">
+            <p>HTML5 | JavaScript </p>
+            <p>CSS | Sass</p>
+            <p>React | Bootstrap</p>
+            <p>Figma | XD</p>
+          </Box>
 
-        {/* <Button onClick="download">CV2020 PDF</Button> */}
+          <Box
+      className="#Contact"
+        borderWidth="1px"
+        rounded="md"
+        maxW="sm"
+        overflow="hidden"
+        bg="tomato"
+        padding="8px"
+        alignSelf="center"
+        textAlign="center"
+      >
+            <h4>Back-End Technologies</h4>
+          </Box>
+          <Box className="center" textAlign="center">
+            <p>
+              APIs | REST
+              <p>Node.js | Express</p>
+              <p>MySQL | Sequelize</p>
+              <p>MongoDB | Mongoose</p>
+              <p>MERN</p>
+            </p>
+          </Box>
+  
+       
+      </Col>
 
-        </Col>
-        
-        </section>
-  )
-};
+      {/* <Button onClick="download">CV2020 PDF</Button> */}
+    </section>
+  );
+}
 
 export default Resume;
