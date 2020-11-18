@@ -9,14 +9,14 @@ function ContactForm() {
           <h4>CONTACT ME</h4>
         </Flex>
         <br />
-        <Image
+        {/* <Image
           className="headshot"
           align-self="right"
           size="130px"
           objectFit="cover"
           src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
           alt="headshot"
-        ></Image>
+        ></Image> */}
         {/* <Flex align="center" justify="center">
           <a href="emailto:seekersig@gmail.com" />
           <span role="img" aria-label="wave">
@@ -24,6 +24,17 @@ function ContactForm() {
             <a href="mailto:seekersig@gmail.com">say hello👋 </a>
           </span>
         </Flex> */}
+             <Flex align="center" justify="center">
+      
+      {/* <a href="https://github.com/sidoniag" target="_blank" rel="noopener noreference"><img src={require(`../../assets/github_logo.png`)} alt="github" className="icon" /></a>
+      <a href="https://www.linkedin.com/in/sarahidoniagarrett/" target="_blank" rel="noopener noreference"><img src={require(`../../assets/linkedin_logo.png`)} alt="linkedin" className="icon" /></a>
+      <a href="mailto:seekersig@gmail.com" target="_blank" rel="noopener noreference"><img src={require(`../../assets/email_icon.jpeg`)} alt="email" className="icon" /></a> */}
+
+      <a href="https://github.com/sidoniag" target="_blank" rel="noopener noreference">github</a>
+      <a href="https://www.linkedin.com/in/sarahidoniagarrett/" target="_blank" rel="noopener noreference">linkedin</a>
+      <a href="mailto:seekersig@gmail.com" target="_blank" rel="noopener noreference">email</a>
+  
+    </Flex>
       </Box>
     </section>
   );

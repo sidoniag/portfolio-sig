@@ -5,28 +5,30 @@ import { Box, Image, Flex} from "@chakra-ui/core";
 function About() {
   return (
     <section id="about">
-      <Box
+      {/* <Box
         bg="transparent"
         w="100%"
         p={1}
         color="white"
         className="#About"
-      ></Box>
-      <h2 className="grow">always grow.</h2>
+      ></Box> */}
+      {/* <h2 className="grow">always grow.</h2>
+      <br />
       <Image
         className="tree"
-        size="200px"
+        size="280px"
         objectFit="cover"
         src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/tree.jpg"
         alt="tree"
       ></Image>
-      <br />
+      <br /> */}
       <Container className="main">
-        <br />
+        <Flex align="center" justify="center">
         <h4 className="title">
-          Hello, nice to meet you.
-          <br /> My name is Sarah Idonia Garrett.
+          Hello, nice to meet you.<br />
+           My name is Sarah Idonia Garrett.
         </h4>
+        </Flex>
         <Box bg="transparent" w="100%" p={1} color="white">
         
         </Box>
@@ -45,7 +47,7 @@ function About() {
         <Flex textAlign="center">
         <p className="quote"
         size="xsm" text-wrap="wrap-around" >
-          An artist, over-thinker, and always in development. Always learning and challenging myself to change and improve, personally and professionally.
+          An artist, over-thinker, and always in development.
 Front-end Developer excited to create useful applications and memorable experiences, using an integrated design approach, preferably as part of a team.
 
         </p>

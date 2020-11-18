@@ -15,13 +15,13 @@ code {
 .App {
   margin: 0 auto;
   max-width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #252626;
 }
 .main {
   margin: 0 auto;
-  height: 100%;
-  padding: 10px;
+
+
   background-color: #252626;
   align-content: center;
 }
@@ -44,11 +44,11 @@ code {
 
 html,
 body {
-  height: 100%;
+  height: 100vh;
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -233,7 +233,7 @@ img {
 a { 
   color: var(--light);
   text-decoration: none;
-  padding: var(--spacing-five);
+  padding: 18px;
   align-self: stretch;
   font-size: small;
   align-content: center;
@@ -280,7 +280,7 @@ a.plain:hover {
 
 .tree {
   float: right;
-  padding: 1rem;
+
 }
 
 .grow {
