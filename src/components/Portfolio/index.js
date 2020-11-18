@@ -67,7 +67,6 @@ function Portfolio() {
         </Flex>
 
         <Box
-          alignItems="baseline"
           maxW="sm"
           borderWidth="1px"
           rounded="md"
