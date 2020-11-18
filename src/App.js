@@ -12,19 +12,16 @@ import Portfolio from './components/Portfolio';
 function App() {
 
     return (
-      <div>
-        <div className="main"
+      <div className="main"
          maxWidth="90%">
         <Navbar/>
-        
-       
         <About />
         <Portfolio />
         <Resume />
         <Contact />
    
       </div>
-      </div>
+
     );
   }
 

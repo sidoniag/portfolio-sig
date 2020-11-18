@@ -7,7 +7,7 @@ const Navbar = (props) => {
 
   return (
 
-
+<div>
       <Nav className="navbar">
          <Flex textAlign="center" justify="center">
         <NavLink className="nav" href="#about">ABOUT</NavLink> 
@@ -17,7 +17,7 @@ const Navbar = (props) => {
         </Flex>
       </Nav>
    
-  
+      </div>
 
   );
 }
