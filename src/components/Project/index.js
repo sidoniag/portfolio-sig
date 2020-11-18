@@ -22,19 +22,24 @@ function Project({ project }) {
             {name}
             </Box>
             </Flex>
+            <Flex align="center" justify="center">
           <img size="250px"src={imgUrl} alt={name} />
+          </Flex>
           <Flex align="center" justify="center">
-          <Box maxW="sm" fontSize="sm">{description}
+          <Box maxW="80%" className="center" textAlign="center" >
+         {description}
+         </Box>
+         </Flex>
           <Box className="center" textAlign="center" >
+          <Flex align="center" justify="center" >
           <Link className="plain" href={link}>
             Deployed
           </Link>
           <Link className="plain" href={repo}>
             GitHub
           </Link>
-          </Box>
-          </Box>
           </Flex>
+      </Box>
       </Box>
       <br />
     </div>

@@ -26,10 +26,12 @@ function Resume() {
           </Box>
           </Box>
           <Box className="center" padding="10px" maxW="md" textAlign="center">
-            <p>HTML5 | JavaScript </p>
             <p>CSS | Sass</p>
-            <p>React | Bootstrap</p>
-            <p>Figma | XD</p>
+            <p>HTML5 | JavaScript </p>
+            <p>React | Reactstrap</p>
+            <p>Bootstrap | Handlebars.js</p>
+            <p>Photoshop | Illustrator | InDesign </p>
+            <p>Figma | XD </p>
           </Box>
 
           <Box
@@ -49,11 +51,12 @@ function Resume() {
           </Box>
           <Box className="center" textAlign="center">
             <p>
-              APIs | REST
-              <p>Node.js | Express</p>
-              <p>MySQL | Sequelize</p>
-              <p>MongoDB | Mongoose</p>
-              <p>MERN</p>
+              Server-Side APIs | REST | MERN
+              <p>Node.js | Express.js | Moment.js</p>
+              <p>MySQL2 | Sequelize | NoSQL</p>
+              <p>MongoDB | Mongoose | JawsDB</p>
+              <p>CLI | Heroku CLI | PWA</p>
+              <p>GraphQL | Insomnia </p>
             </p>
           </Box>
   

@@ -65,20 +65,20 @@ function Portfolio() {
             Front-end design, asset creation, and communications .
           </p>
         </Flex>
-
+        <Flex textAlign="center" justify="center">
         <Box
-          maxW="sm"
+       
+          maxW="90%"
           borderWidth="1px"
           rounded="md"
           overflow="hidden"
-          padding="20px"
+          padding="30px"
         >
           {projects.map((project, idx) => (
             <Project project={project} key={"project" + idx} />
           ))}
-
-          <br />
         </Box>
+        </Flex>
       </div>
     </section>
   );
