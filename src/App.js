@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';

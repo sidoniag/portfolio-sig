@@ -47,7 +47,7 @@ function About() {
         <Flex textAlign="center">
         <p className="quote"
         size="xsm" text-wrap="wrap-around" >
-          An artist, over-thinker, and always in development.
+          An artist, over-thinker, and always in development.<br />
 Front-end Developer excited to create useful applications and memorable experiences, using an integrated design approach, preferably as part of a team.
 
         </p>

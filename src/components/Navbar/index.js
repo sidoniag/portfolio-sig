@@ -1,6 +1,5 @@
 import React from "react";
-import { Row } from "reactstrap";
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavLink } from 'reactstrap';
 import { Flex } from '@chakra-ui/core';
 
 const Navbar = (props) => {
@@ -8,6 +7,7 @@ const Navbar = (props) => {
   return (
 
 <div>
+
       <Nav className="navbar">
          <Flex textAlign="center" justify="center">
         <NavLink className="nav" href="#about">ABOUT</NavLink> 
@@ -16,7 +16,7 @@ const Navbar = (props) => {
         <NavLink className="nav" href="#contact">CONTACT</NavLink>
         </Flex>
       </Nav>
-   
+
       </div>
 
   );
