@@ -54,8 +54,8 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <div>
-      <Flex textAlign="center" justify="center">
-        <h4>Portfolio</h4>
+      <Flex textAlign="center" justify="center" bg="tomato">
+        <h4>PORTFOLIO</h4>
         </Flex>
         <Flex textAlign="center" justify="center">
           <p class="center">
@@ -67,7 +67,6 @@ function Portfolio() {
         </Flex>
         <Flex textAlign="center" justify="center">
         <Box
-       
           maxW="90%"
           borderWidth="1px"
           rounded="md"

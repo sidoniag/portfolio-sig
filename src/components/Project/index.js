@@ -33,10 +33,10 @@ function Project({ project }) {
           <Box className="center" textAlign="center" >
           <Flex align="center" justify="center" >
           <Link className="plain" href={link}>
-            Deployed
+            DEPLOYED
           </Link>
           <Link className="plain" href={repo}>
-            GitHub
+            GITHUB
           </Link>
           </Flex>
       </Box>

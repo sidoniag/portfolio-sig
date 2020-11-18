@@ -10,10 +10,10 @@ const Navbar = (props) => {
 
       <Nav className="navbar">
          <Flex textAlign="center" justify="center">
-        <NavLink className="nav" href="#about">About</NavLink> 
-        <NavLink className="nav" href="#portfolio">Portfolio</NavLink> 
-        <NavLink className="nav" href="#resume">Resume</NavLink> 
-        <NavLink className="nav" href="#contact">Contact</NavLink>
+        <NavLink className="nav" href="#about">ABOUT</NavLink> 
+        <NavLink className="nav" href="#portfolio">PORTFOLIO</NavLink> 
+        <NavLink className="nav" href="#resume">RESUME</NavLink> 
+        <NavLink className="nav" href="#contact">CONTACT</NavLink>
         </Flex>
       </Nav>
    

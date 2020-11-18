@@ -26,7 +26,7 @@ code {
   align-content: center;
 }
 :root {
-  --primary: #FFD6BA;
+  --primary: #252626;
   --secondary: #89B0AE;
   --tertiary: #BEE3DB;
   --light: #FAF9F9;
@@ -112,10 +112,6 @@ h6 {
   text-align: right;
 }
 
-link {
-  color: grey;
-  text-decoration: none;
-}
 .nav {
   color: var(--light);
   text-decoration: none;
@@ -218,6 +214,8 @@ img {
   padding-bottom: var(--spacing-two);
 }
 
+/** Custom styles **/
+
 .css-nubmu2 {
   margin-top: 20px;
 }
@@ -227,8 +225,9 @@ img {
 }
 
 .link {
-  color: grey;
+  color: white;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 a { 
@@ -238,19 +237,22 @@ a {
   align-self: stretch;
   font-size: small;
   align-content: center;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 a:hover {
   text-decoration: none;
   color: tomato;
 }
 .plain {
-  color: grey;
+  color: tomato;
   text-decoration: none;
 }
 
 a.plain:hover {
   text-decoration: none;
-  color: tomato;
+  color: white;
 }
 
 .center div{

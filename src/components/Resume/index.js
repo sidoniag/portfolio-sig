@@ -7,18 +7,22 @@ function Resume() {
     <section id="resume">
       <Col xs={12}>
       <Box
-      className="#Contact"
+      className="#Resume"
         borderWidth="1px"
         rounded="md"
         maxW="sm"
         overflow="hidden"
-        bg="tomato"
+        
         padding="8px"
         alignSelf="center"
         textAlign="center"
       >
         <Box alignSelf="center">
           <Box className="tech" padding="8px" maxW="md" textAlign="center">
+          <Flex textAlign="center" justify="center" bg="tomato">
+            <h4 className="spread">RESUME</h4>
+            </Flex>
+            <br />
           <Flex textAlign="center" justify="center">
             <h4>Front-End Technologies</h4>
             </Flex>
@@ -40,7 +44,7 @@ function Resume() {
         rounded="md"
         maxW="sm"
         overflow="hidden"
-        bg="tomato"
+        
         padding="8px"
         alignSelf="center"
         textAlign="center"

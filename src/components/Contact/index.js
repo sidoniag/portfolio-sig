@@ -5,8 +5,8 @@ function ContactForm() {
   return (
     <section id="contact">
       <Box className="center" padding="10px" maxW="md" textAlign="center">
-        <Flex align="center" justify="center">
-          <h4>Contact Me</h4>
+        <Flex align="center" justify="center" bg="tomato">
+          <h4>CONTACT ME</h4>
         </Flex>
         <br />
         <Image
