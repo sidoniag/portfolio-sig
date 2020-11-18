@@ -54,7 +54,9 @@ function Portfolio() {
   return (
     <section id="portfolio">
       <div>
+      <Flex textAlign="center" justify="center">
         <h4>Portfolio</h4>
+        </Flex>
         <Flex textAlign="center" justify="center">
           <p class="center">
             Below are a handful of recent projects.

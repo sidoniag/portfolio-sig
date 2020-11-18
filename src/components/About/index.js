@@ -36,7 +36,6 @@ function About() {
         <Flex align="center" justify="center">
           <Image
             className="headshot"
-            align-self="right"
             size="130px"
             objectFit="cover"
             src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
@@ -46,7 +45,9 @@ function About() {
         <Flex textAlign="center">
         <p className="quote"
         size="xsm" text-wrap="wrap-around" >
-          I am an artist, over-thinker, and always in development.
+          An artist, over-thinker, and always in development. Always learning and challenging myself to change and improve, personally and professionally.
+Front-end Developer excited to create useful applications and memorable experiences, using an integrated design approach, preferably as part of a team.
+
         </p>
         </Flex>
         </Box>

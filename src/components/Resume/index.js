@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "reactstrap";
-import { Box } from "@chakra-ui/core";
+import { Box, Flex } from "@chakra-ui/core";
 
 function Resume() {
   return (
@@ -18,8 +18,10 @@ function Resume() {
         textAlign="center"
       >
         <Box alignSelf="center">
-          <Box className="tech" padding="10px" maxW="md" textAlign="center">
+          <Box className="tech" padding="8px" maxW="md" textAlign="center">
+          <Flex textAlign="center" justify="center">
             <h4>Front-End Technologies</h4>
+            </Flex>
           </Box>
           </Box>
           </Box>
@@ -41,7 +43,9 @@ function Resume() {
         alignSelf="center"
         textAlign="center"
       >
+        <Flex textAlign="center" justify="center">
             <h4>Back-End Technologies</h4>
+            </Flex>
           </Box>
           <Box className="center" textAlign="center">
             <p>

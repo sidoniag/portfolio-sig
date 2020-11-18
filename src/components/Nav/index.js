@@ -1,9 +1,5 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
-import About from "../About";
-import Portfolio from "../Portfolio";
-
-import Resume from "../Resume";
 
 function Nav(props) {
   const { categories = [], setCurrentCategory, currentCategory } = props;
