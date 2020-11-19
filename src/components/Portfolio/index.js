@@ -40,6 +40,15 @@ function Portfolio() {
       link: "https://devmadia.github.io/soother/",
       repo: "https://github.com/Devmadia/sootheR",
     },
+    {
+    name: "Regex Hex Explained",
+    imgUrl:
+      "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/Regex.png",
+    description:
+      "This tutorial is meant as a discovery to better understand regular expressions (regex) through the process of explanation.",
+    link: "https://gist.github.com/sidoniag/c7f8aaa73b62e100ba0d5853ee7a9ab4",
+    repo: "https://gist.github.com/sidoniag",
+    }
     // {
     //   name: "NoteTaker",
     //   imgUrl:
