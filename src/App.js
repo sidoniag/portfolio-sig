@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
