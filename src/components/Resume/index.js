@@ -10,15 +10,13 @@ function Resume() {
       className="#Resume"
         borderWidth="1px"
         rounded="md"
-        maxW="sm"
+        width="100%"
         overflow="hidden"
-        
-        padding="8px"
         alignSelf="center"
         textAlign="center"
       >
         <Box alignSelf="center">
-          <Box className="tech" padding="8px" maxW="md" textAlign="center">
+          <Box className="tech" maxW="md" textAlign="center">
           <Flex textAlign="center" justify="center" bg="tomato">
             <h4 className="spread">RESUME</h4>
             </Flex>
@@ -44,8 +42,6 @@ function Resume() {
         rounded="md"
         maxW="sm"
         overflow="hidden"
-        
-        padding="8px"
         alignSelf="center"
         textAlign="center"
       >
