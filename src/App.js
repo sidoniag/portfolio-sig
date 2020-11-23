@@ -10,8 +10,7 @@ import Portfolio from './components/Portfolio';
 function App() {
 
     return (
-      <div className="main"
-         maxWidth="90%">
+      <div className="main">
       <Navbar/>
        
         <About />
