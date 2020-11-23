@@ -12,7 +12,8 @@ function App() {
     return (
       <div className="main"
          maxWidth="90%">
-        <Navbar/>
+      <Navbar/>
+       
         <About />
         <Portfolio />
         <Resume />

@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Link, Flex } from "@chakra-ui/core";
 
 function Project({ project }) {
-  const { name, imgUrl, link, repo, description } = project;
+  const { name, imgUrl, link, repo, description, tech } = project;
 
   return (
     <div>
@@ -24,6 +24,9 @@ function Project({ project }) {
             </Flex>
             <Flex align="center" justify="center">
           <img size="250px"src={imgUrl} alt={name} />
+          </Flex>
+          <Flex align="center" justify="center">
+           <h5>{tech}</h5> 
           </Flex>
           <Flex align="center" justify="center">
           <Box maxW="80%" className="center" textAlign="center" >

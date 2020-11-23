@@ -22,11 +22,11 @@ function About() {
         alt="tree"
       ></Image>
       <br /> */}
-      <Container className="main">
+      
         <Flex align="center" justify="center">
         <h4 className="title">
-          Hello, nice to meet you.<br />
-           My name is Sarah Idonia Garrett.
+          Hello, 
+           my name is Sarah Idonia Garrett.
         </h4>
         </Flex>
         <Box bg="transparent" w="100%" p={1} color="white">
@@ -47,14 +47,14 @@ function About() {
         <Flex textAlign="center">
         <p className="quote"
         size="xsm" text-wrap="wrap-around" >
-          An artist, over-thinker, and always in development.<br />
-Front-end Developer excited to create useful applications and memorable experiences, using an integrated design approach, preferably as part of a team.
+          An artist, over-thinker, and 
+Front-End Developer excited to create useful applications and memorable experiences. Integrated, user-centric design approach preferably as part of a team.
 
         </p>
         </Flex>
         </Box>
         </Flex>
-      </Container>
+      
     </section>
   );
 }
