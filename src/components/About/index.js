@@ -5,6 +5,7 @@ import { Box, Image, Flex} from "@chakra-ui/core";
 function About() {
   return (
     <section id="about">
+      <Box>
       {/* <Box
         bg="transparent"
         w="100%"
@@ -22,6 +23,14 @@ function About() {
         alt="tree"
       ></Image>
       <br /> */}
+          {/* <Image
+        className="tree"
+        size="280px"
+        objectFit="cover"
+        src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/space.jpg"
+        alt="space"
+      ></Image> */}
+      </Box>
       
         <Flex align="center" justify="center">
         <h4 className="title">
