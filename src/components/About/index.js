@@ -6,13 +6,14 @@ import { Box, Image, Flex} from "@chakra-ui/core";
 function About() {
   return (
     <section id="about">
-      
+      <Container bg="tomato">
         <Flex align="center" justify="center">
         <h4 className="title">
           Hello, 
            my name is Sarah Idonia Garrett.
         </h4>
         </Flex>
+        </Container>
         <Box bg="transparent" w="100%" p={1} color="white">
         
         </Box>
@@ -25,8 +26,8 @@ function About() {
         <p className="quote"
         size="xsm" text-wrap="wrap-around" >
           An artist, over-thinker, and 
-Front-End Developer excited to create useful applications and memorable experiences. Integrated, user-centric design approach preferably as part of a team.
-        </p>
+Front-End Developer excited to create user-centric applications and memorable experiences. Passionate about ideation and process, learning new technologies, and contributing a solution-oriented mindset to a team. 
+</p>
         </Flex>
         <Flex align="center" justify="center">
           <Image
@@ -37,6 +38,7 @@ Front-End Developer excited to create useful applications and memorable experien
             alt="headshot"
           ></Image>
         </Flex>
+        <Box border="1px" bg="transparent" w="60%" height="30px" p={1} color="white"></Box>
         </Box>
         </Flex>
       
