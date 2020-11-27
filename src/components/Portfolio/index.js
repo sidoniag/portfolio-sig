@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 import { Box, Flex } from "@chakra-ui/core";
+import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react"
 
 function Portfolio() {
   const [projects] = useState([
@@ -76,21 +77,18 @@ function Portfolio() {
             Below are a handful of recent projects.
             <br /> 
             <br />
-            Front-end design and development, asset creation, and communications were my primary contributions.
+            Front-End design and development, asset creation, and communications were my primary contributions.
           </p>
         </Flex>
-        <Flex textAlign="center" justify="center">
-        <Box
-          maxW="90%"
-          borderWidth="1px"
-          rounded="md"
-          overflow="hidden"
-          padding="30px"
-        >
+
+        <Flex justify="center">
+        <SimpleGrid columns={2} spacing="20px" > 
+      <Box>
           {projects.map((project, idx) => (
             <Project project={project} key={"project" + idx} />
           ))}
-        </Box>
+</Box>
+        </SimpleGrid>
         </Flex>
       </div>
     </section>
