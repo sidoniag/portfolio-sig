@@ -102,11 +102,23 @@ h6 {
   font-size: 1rem;
 }
 
+.about {
+  background-image: url("/src/assets/space.jpg");
+  background-size: cover;
+
+}
+
 
 .quote {
   font-size: 60%;
   font-style: italic;
   text-align: right;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 20px ;
+  background-color: #252626;
+  margin-right: 40px;
+  margin-top: -15px;
 }
 
 .navbar {
@@ -123,10 +135,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-.navbar.nav {
-  margin-bottom: 20px;
-
-}
 ul {
   margin: 0;
   white-space: var(--spacing-five);
@@ -139,6 +147,8 @@ ul {
       filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
       -webkit-transition: all .8s ease-in-out;  
+      
+      padding: 0px;
     }
 
     .headshot:hover {

@@ -74,9 +74,9 @@ function Portfolio() {
         <Flex textAlign="center" justify="center">
           <p class="center">
             Below are a handful of recent projects.
-            <br /> My primary role included:
+            <br /> 
             <br />
-            Front-end design, asset creation, and communications .
+            Front-end design and development, asset creation, and communications were my primary contributions.
           </p>
         </Flex>
         <Flex textAlign="center" justify="center">

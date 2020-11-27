@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex, Image } from "@chakra-ui/core";
 
 function ContactForm() {
   return (
@@ -9,6 +9,15 @@ function ContactForm() {
           <h4>CONTACT ME</h4>
         </Flex>
         <br />
+        <Flex align="center" justify="center">
+              <Image
+                className="headshot"
+                size="130px"
+                objectFit="cover"
+                src="https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/headshot.jpg"
+                alt="headshot"
+              ></Image>
+            </Flex>
         {/* <Image
           className="headshot"
           align-self="right"
