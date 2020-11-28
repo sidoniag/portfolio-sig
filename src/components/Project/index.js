@@ -7,30 +7,27 @@ function Project({ project }) {
   return (
     <div>
       <Box className="portfolio"  maxH="sm" rounded="lg" overflow="hidden">
-      <Flex align="center" justify="center">
-          <Box 
-            p={3}
-            mt="1"
+            <Flex align="center" justify="center">
+          <img size="250px"src={imgUrl} alt={name} />
+          </Flex>
+          {/* <Box 
             fontWeight="semibold"
-            as="h4"
             lineHeight="tight"
             className="deploy"
             alignContent="center"
           >
             <Link className="project_head" href={link}>
             </Link>
-            {name}
-            </Box>
-            </Flex>
-            <Flex align="center" justify="center">
-          <img size="250px"src={imgUrl} alt={name} />
-          </Flex>
+         
+            </Box> */}
           <Flex align="center" justify="center">
            <h5>{tech}</h5> 
           </Flex>
           <Flex align="center" justify="center">
-          <Box maxW="80%" className="center" textAlign="center" >
+          <Box maxW="100%" className="center" textAlign="center" >
+            <p className="description">
          {description}
+         </p>
          </Box>
          </Flex>
           <Box className="center" textAlign="center" >
