@@ -5,7 +5,7 @@ function Project({ project }) {
   const { name, imgUrl, link, repo, description, tech } = project;
 
   return (
-    <div>
+    <div className>
       <Box className="portfolio"  maxH="sm" rounded="lg" overflow="hidden">
             <Flex align="center" justify="center">
           <img size="250px"src={imgUrl} alt={name} />
