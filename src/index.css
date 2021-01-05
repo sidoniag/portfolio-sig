@@ -334,6 +334,27 @@ a.plain:hover {
   box-shadow: 6px 4px 10px tomato;
 }
 
+.resume {
+  font-size: large;
+  padding: .3rem;
+  background-color: tomato;
+  color: white;
+  align-self: center;
+  text-align: center;
+  
+}
+
+a.resume:hover {
+  font-size: large;
+  padding: .3rem;
+  background-color: transparent;
+  border: 2px tomato solid;
+  color: tomato;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+
 .title {
   box-shadow: 6px 4px 10px tomato;
 }

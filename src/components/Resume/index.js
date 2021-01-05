@@ -8,21 +8,6 @@ import { Box, Flex , Link} from "@chakra-ui/core";
   function Resume() {
   return (
     <section id="resume">
-
-{/* <div className="App">
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.2.228/build/pdf.worker.min.js">
-        <div style={{ height: "750px" }}>
-          <Viewer fileUrl="Resume2021.pdf" />
-        </div>
-      </Worker>
-    </div> */}
-
-
-
-<Link href="file:///Users/idonia/Downloads/Resume%202020%20(1).pdf" />
-  
-
-    
       <Col xs={12}>
       <Box
       className="#Resume"
@@ -77,8 +62,11 @@ import { Box, Flex , Link} from "@chakra-ui/core";
               <p>GraphQL | Insomnia </p>
             </p>
           </Box>
-  
-       
+          <Box bg="transparent" height="20px" />
+          <Flex textAlign="center" justify="center">
+<Link className="resume" href="https://docs.google.com/document/d/e/2PACX-1vSsuyUguFXr12fORmSdklYltlWZdJxWOxfDvGpjlUdKuGpQHyowD5ZQ7ddE7MSCa7Ys5ePNUtolpSRq/pub">Resume</Link>
+  </Flex>
+  <Box bg="transparent" height="20px" />
       </Col>
 
       {/* <Button onClick="download">CV2020 PDF</Button> */}
