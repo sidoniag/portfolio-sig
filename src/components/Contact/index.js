@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Image } from "@chakra-ui/core";
+import { IconButton, EmailIcon } from "@chakra-ui/react";
 
 function ContactForm() {
   return (
@@ -8,12 +9,11 @@ function ContactForm() {
         <Flex align="center" justify="center" bg="tomato">
           <h4>CONTACT ME</h4>
         </Flex>
-        <br />
-
+    
+        <Box bg="transparent" height="20px" />
         <Flex align="center" justify="center">
-          <a href="https://spark.adobe.com/page/wGm9zXRSbZMYL/">
-            art portfolio
-          </a>
+          <Image src="https://img.icons8.com/ios/50/000000/linkedin.png" />
+
           <a href="mailto:seekersig@gmail.com">email</a>
           <a href="https://github.com/sidoniag">github</a>
           <a href="https://www.linkedin.com/in/sarahidoniagarrett/">linkedin</a>

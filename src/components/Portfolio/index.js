@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 import { Box, Flex } from "@chakra-ui/core";
-import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react"
+// import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react"
 
 function Portfolio() {
   const [projects] = useState([

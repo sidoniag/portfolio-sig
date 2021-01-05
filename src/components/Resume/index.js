@@ -1,24 +1,40 @@
 import React from "react";
 import { Col } from "reactstrap";
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex , Link} from "@chakra-ui/core";
+// import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 
-function Resume() {
+// import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
+
+  function Resume() {
   return (
     <section id="resume">
+
+{/* <div className="App">
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.2.228/build/pdf.worker.min.js">
+        <div style={{ height: "750px" }}>
+          <Viewer fileUrl="Resume2021.pdf" />
+        </div>
+      </Worker>
+    </div> */}
+
+
+
+<Link href="file:///Users/idonia/Downloads/Resume%202020%20(1).pdf" />
+  
+
+    
       <Col xs={12}>
       <Box
       className="#Resume"
         borderWidth="1px"
         rounded="md"
-        maxW="sm"
+        width="100%"
         overflow="hidden"
-        
-        padding="8px"
         alignSelf="center"
         textAlign="center"
       >
         <Box alignSelf="center">
-          <Box className="tech" padding="8px" maxW="md" textAlign="center">
+          <Box className="tech" maxW="md" textAlign="center">
           <Flex textAlign="center" justify="center" bg="tomato">
             <h4 className="spread">RESUME</h4>
             </Flex>
@@ -44,8 +60,6 @@ function Resume() {
         rounded="md"
         maxW="sm"
         overflow="hidden"
-        
-        padding="8px"
         alignSelf="center"
         textAlign="center"
       >
