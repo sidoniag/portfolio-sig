@@ -1,10 +1,21 @@
 import React from "react";
 import { Col } from "reactstrap";
 import { Box, Flex } from "@chakra-ui/core";
+import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 
-function Resume() {
+import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
+
+  export default function Resume() {
   return (
     <section id="resume">
+
+<div className="App">
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.2.228/build/pdf.worker.min.js">
+        <div style={{ height: "750px" }}>
+          <Viewer fileUrl="Resume2021.pdf" />
+        </div>
+      </Worker>
+    </div>
       <Col xs={12}>
       <Box
       className="#Resume"
