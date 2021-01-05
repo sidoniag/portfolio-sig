@@ -336,9 +336,10 @@ a.plain:hover {
 
 .resume {
   font-size: large;
-  padding: .3rem;
+  padding: .33rem;
   background-color: tomato;
-  color: white;
+color: #252626;
+  font-weight: bold;
   align-self: center;
   text-align: center;
   
@@ -346,10 +347,11 @@ a.plain:hover {
 
 a.resume:hover {
   font-size: large;
-  padding: .3rem;
+  padding: .33rem;
   background-color: transparent;
   border: 2px tomato solid;
   color: tomato;
+  font-weight: bold;
   align-self: center;
   text-align: center;
   text-decoration: none;
