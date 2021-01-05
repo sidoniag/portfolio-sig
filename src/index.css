@@ -317,6 +317,11 @@ a.plain:hover {
   padding: 0px;
 }
 
+.linkedIn:hover {
+  box-shadow: 1rem 3rem 4rem;
+  color: tomato;
+}
+
 .portfolio {
   max-width: 400px;
   max-height: 400px;

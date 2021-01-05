@@ -12,11 +12,11 @@ function ContactForm() {
     
         <Box bg="transparent" height="20px" />
         <Flex align="center" justify="center">
-          <Image src="https://img.icons8.com/ios/50/000000/linkedin.png" />
+        <a className="linkedIn" href="https://www.linkedin.com/in/sarahidoniagarrett/"><Image src="https://img.icons8.com/ios/50/000000/linkedin.png" /></a>
 
-          <a href="mailto:seekersig@gmail.com">email</a>
+      
           <a href="https://github.com/sidoniag">github</a>
-          <a href="https://www.linkedin.com/in/sarahidoniagarrett/">linkedin</a>
+          <a href="mailto:seekersig@gmail.com">email</a>
         </Flex>
       </Box>
     </section>
