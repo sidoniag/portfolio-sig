@@ -5,7 +5,7 @@ import { IconButton, EmailIcon } from "@chakra-ui/react";
 function ContactForm() {
   return (
     <section id="contact">
-      <Box className="center" padding="10px" maxW="md" textAlign="center">
+      <Box className="center" maxW="md" textAlign="center">
         <Flex align="center" justify="center" bg="tomato">
           <h4>CONTACT ME</h4>
         </Flex>
