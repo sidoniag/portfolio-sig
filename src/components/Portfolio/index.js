@@ -8,7 +8,7 @@ function Portfolio() {
     {
       name: "Teach Me To",
       imgUrl:
-        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.jpg",
+        "https://raw.githubusercontent.com/sidoniag/portfolio-sig/master/src/assets/projects/TeachMeTo.png",
       description:
         "TeachMeTo is built with React where users can find and contribute knowledge. Users can donate to contributors whose resources they admire.",
       link: "https://floating-spire-39046.herokuapp.com/",
