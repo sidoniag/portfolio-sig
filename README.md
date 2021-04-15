@@ -17,5 +17,5 @@ Welcome to my portfolio built with Create-React-App
 
 [Deployed](https://sidoniag.github.io/portfolio-sig/)
 
-### Preview
-<img src="./portfolio_home.png">
+<!-- ### Preview
+<img src="./portfolio_home.png"> -->
