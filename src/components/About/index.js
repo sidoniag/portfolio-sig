@@ -25,8 +25,7 @@ function About() {
               </Flex>
    <Flex align="right" justify="right" paddingLeft="100px" paddingRight="25px">
               <p className="quote" size="sm" text-wrap="wrap-around" >
-                An artist, over-thinker, and Front-End Developer excited to
-                create user-centric applications and memorable experiences.
+                Front-End Developer excited to create user-centric applications and memorable experiences.
                 Passionate about ideation and process, learning new
                 technologies, and contributing a solution-oriented mindset to a
                 team.
